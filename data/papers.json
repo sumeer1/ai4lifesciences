@@ -1,21 +1,39 @@
 [
   {
-    "title": "Trial and error as an explanation for the illusion of moral decline. Response to https://www.nature.com/articles/s41586-023-06137-x",
+    "title": "A Foundation Model for the Earth System",
     "authors": [
-      "Dan Costa Baciu"
+      "Cristian Bodnar",
+      "Wessel P. Bruinsma",
+      "Ana Lucic",
+      "Megan Stanley",
+      "Anna Vaughan",
+      "Johannes Brandstetter",
+      "Patrick Garvan",
+      "Maik Riechert",
+      "Jonathan A. Weyn",
+      "Haiyu Dong",
+      "Jayesh K. Gupta",
+      "Kit Thambiratnam",
+      "Alexander T. Archibald",
+      "Chun-Chieh Wu",
+      "Elizabeth Heider",
+      "Max Welling",
+      "Richard E. Turner",
+      "Paris Perdikaris"
     ],
-    "venue": "Center for Open Science",
-    "year": 2023,
-    "url": "https://doi.org/10.31219/osf.io/hzfkx",
+    "venue": "arXiv",
+    "year": 2024,
+    "url": "http://arxiv.org/abs/2405.13063v3",
     "code": "",
-    "abstract": "On June 7, 2023, Nature has published the article “The illusion of moral decline” by Mastroianni and Gilbert. The article substantiates that people believe in moral decline, and it reconfirms that this belief may be an illusion. The evidence provided is partly archival and partly experimental. To explain why the belief in moral decline is so pervasive although it may be an illusion, the authors furthermore propose a new theory based on two types of psychological bias (biased exposure to information and biased memory for information). The authors hasten to state that their theory provides at best one possible explanation, thus opening a debate on other potential explanations. In my present response to this Nature article, I would like to add another explanation based on common properties of evolutionary processes. My explanation does not require psychological bias. The only thing that one needs to assume is that human culture, like biological evolution, advances through a process of trial and error. Because this processes is a process of trial and error, people perceive that there is plenty of error, which makes them falsely extrapolate that their culture is in decline, overall. As a matter of fact, success is rare, and its impact is easily overlooked. Thus, the people and the media do not necessarily need to be biased for the illusion of cultural define to emerge. My theory—initially published before the new experimental data were collected—can explain both a broad array of past empirical observations as well as the new experimental data.",
+    "abstract": "Reliable forecasts of the Earth system are crucial for human progress and safety from natural disasters. Artificial intelligence offers substantial potential to improve prediction accuracy and computational efficiency in this field, however this remains underexplored in many domains. Here we introduce Aurora, a large-scale foundation model for the Earth system trained on over a million hours of diverse data. Aurora outperforms operational forecasts for air quality, ocean waves, tropical cyclone tracks, and high-resolution weather forecasting at orders of magnitude smaller computational expense than dedicated existing systems. With the ability to fine-tune Aurora to diverse application domains at only modest computational cost, Aurora represents significant progress in making actionable Earth system predictions accessible to anyone.",
     "type": [],
     "domain": [],
     "modality": [
-      "imaging",
-      "text"
+      "imaging"
     ],
     "system": [],
-    "task": []
+    "task": [
+      "classification"
+    ]
   }
 ]
