@@ -50,8 +50,8 @@
     "domain": [
       "medicine"
     ],
-    "modality": [imaging],
+    "modality": ["imaging"],
     "system": [],
-    "task": [neural activity predicts response ]
+    "task": ["prediction"]
   }
 ]
