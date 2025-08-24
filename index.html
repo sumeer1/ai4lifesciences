@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI4LifeSciences — Paper Atlas</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="wrap headerbar">
+    <h1>AI4LifeSciences — Paper Atlas</h1>
+    <div class="actions">
+      <button id="addPaperBtn" class="add-btn">+ Add paper</button>
+      <a id="repoLink" class="repo-link" target="_blank" rel="noopener">Repo</a>
+    </div>
+    <nav id="topic-rail" class="topic-rail" aria-label="Popular topics"></nav>
+    <p class="subtitle">Browse papers by type, domain, modality, system class, task, and more.</p>
+  </header>
+
+  <section class="wrap controls">
+    <div class="control">
+      <label>Search</label>
+      <input id="search" type="search" placeholder="Title, authors, venue, year, abstract…" />
+    </div>
+    <div class="control">
+      <label>Type</label>
+      <div id="facet-type" class="chips"></div>
+    </div>
+    <div class="control">
+      <label>Domain</label>
+      <div id="facet-domain" class="chips one-line"></div>
+    </div>
+    <div class="control">
+      <label>Modality</label>
+      <div id="facet-modality" class="chips"></div>
+    </div>
+    <div class="control">
+      <label>System Class</label>
+      <div id="facet-system" class="chips"></div>
+    </div>
+    <div class="control">
+      <label>Task</label>
+      <div id="facet-task" class="chips"></div>
+    </div>
+    <div class="control">
+      <label>Year</label>
+      <select id="year">
+        <option value="">Any</option>
+      </select>
+    </div>
+    <div class="control">
+      <label>Sort</label>
+      <select id="sort">
+        <option value="year-desc">Year ↓</option>
+        <option value="year-asc">Year ↑</option>
+        <option value="title-asc">Title A–Z</option>
+      </select>
+    </div>
+    <div class="control row">
+      <button id="clear">Clear filters</button>
+      <button id="share">Copy shareable link</button>
+      <span id="count" class="count"></span>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="results" class="grid"></div>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Made for <strong>AI4LifeSciences</strong>. Add papers by editing <code>data/papers.json</code> or push URLs to <code>data/sources.csv</code>.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
