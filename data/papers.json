@@ -52,8 +52,8 @@
     "domain": [
       "genomics"
     ],
-    "modality": ["rna-seq"],
+    "modality": ["rna"],
     "system": [],
-    "task": ["prediction","classification"]
+    "task": ["prediction"]
   }
 ]
