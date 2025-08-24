@@ -2,38 +2,69 @@
   "default_year": null,
   "tag_rules": {
     "genomics": [
+      "genome",
       "genomic",
       "dna",
       "rna",
-      "single-cell"
+      "single-cell",
+      "transcriptomic",
+      "spatial transcriptomics",
+      "protein structure",
+      "variant"
     ],
     "medicine": [
       "clinical",
+      "patient",
       "disease",
-      "patient"
+      "diagnosis",
+      "therapy",
+      "trial",
+      "EHR",
+      "pathology",
+      "radiology"
     ],
     "climate": [
       "climate",
-      "weather"
+      "weather",
+      "earth system",
+      "cyclone",
+      "hurricane",
+      "ocean wave",
+      "air quality",
+      "forecasting",
+      "meteorology"
     ],
     "environment": [
       "environment",
-      "ecology"
+      "ecology",
+      "ecosystem",
+      "biodiversity",
+      "pollution"
     ],
     "marine": [
       "marine",
-      "ocean"
+      "ocean",
+      "sea",
+      "coastal",
+      "coral"
     ],
     "plant": [
       "plant",
-      "crop"
+      "botany",
+      "crop",
+      "agriculture",
+      "arabidopsis",
+      "rice",
+      "maize",
+      "wheat"
     ]
   },
   "modality_rules": {
     "sequence": [
       "dna",
       "rna",
-      "rna-seq"
+      "rna-seq",
+      "spatial transcriptomics"
     ],
     "imaging": [
       "image",
