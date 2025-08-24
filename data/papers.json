@@ -1,29 +1,133 @@
 [
   {
-    "title": "Getting Started \u2014 Replace these examples with your course papers",
+    "title": "Large Language Models for Clinical Text",
     "authors": [
-      "Your Name"
+      "Doe J.",
+      "Smith A."
     ],
-    "venue": "Course",
-    "year": 2025,
-    "url": "https://example.org",
-    "code": "",
-    "abstract": "Delete me and add real entries in data/papers.json or push URLs into data/sources.csv.",
+    "venue": "BioNLP",
+    "year": 2024,
+    "url": "https://example.org/llm-clinical",
+    "abstract": "Explores LLMs for EHR notes; classification and phenotyping tasks.",
     "type": [
-      "review"
+      "original"
     ],
     "domain": [
-      "genomics",
       "medicine"
     ],
     "modality": [
-      "multimodal"
+      "text",
+      "clinical"
     ],
     "system": [
       "foundation-model"
     ],
     "task": [
       "classification"
+    ]
+  },
+  {
+    "title": "Segmentation of Whole-Slide Histology Images",
+    "authors": [
+      "Lee K."
+    ],
+    "venue": "MICCAI",
+    "year": 2023,
+    "url": "https://example.org/wsi-seg",
+    "abstract": "Deep learning for pathology image segmentation.",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "imaging"
+    ],
+    "system": [
+      "task-specific"
+    ],
+    "task": [
+      "segmentation"
+    ]
+  },
+  {
+    "title": "Single-cell RNA-seq integration across tissues",
+    "authors": [
+      "Chen X."
+    ],
+    "venue": "Nature Methods",
+    "year": 2022,
+    "url": "https://example.org/scrna-integration",
+    "abstract": "Integration and batch correction for single-cell transcriptomics.",
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "single-cell",
+      "sequence"
+    ],
+    "system": [
+      "task-specific"
+    ],
+    "task": [
+      "integration",
+      "batch-correction"
+    ]
+  },
+  {
+    "title": "Climate-driven disease risk forecasting",
+    "authors": [
+      "Patel R."
+    ],
+    "venue": "Science Advances",
+    "year": 2021,
+    "url": "https://example.org/climate-risk",
+    "abstract": "Time-series models link climate features to disease outbreaks.",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "climate",
+      "medicine"
+    ],
+    "modality": [
+      "time-series"
+    ],
+    "system": [
+      "task-specific"
+    ],
+    "task": [
+      "prognosis"
+    ]
+  },
+  {
+    "title": "Protein structure prediction with foundation models",
+    "authors": [
+      "Kumar S."
+    ],
+    "venue": "arXiv",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2301.12345",
+    "abstract": "Foundation models for structure prediction and function annotation.",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "sequence"
+    ],
+    "system": [
+      "foundation-model"
+    ],
+    "task": [
+      "structure-prediction",
+      "function-annotation"
     ]
   }
 ]
