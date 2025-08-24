@@ -36,8 +36,7 @@
     "modality": ["imaging"],
     "system": [],
     "task": ["prediction"]
-  }
-
+  },
 {
     "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
     "authors": [
