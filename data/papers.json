@@ -1,132 +1,28 @@
 [
   {
-    "title": "A foundation model for the Earth system",
+    "title": "Trial and error as an explanation for the illusion of moral decline. Response to https://www.nature.com/articles/s41586-023-06137-x",
     "authors": [
-      "Cristian Bodnar",
-      "Paris Perdikaris"
+      "Dan Costa Baciu"
     ],
-    "venue": "nature ",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/s41586-025-09005-y",
-    "abstract": "efficient Earth system predictions. These results highlight the transformative potential of AI in environmental forecasting and pave the way for broader accessibility to high-quality climate and weather information..",
-    "type": [
-      "original"
-    ],
-    "domain": [
-      "climate"
-    ],
-    "modality": [
-      "geophysical"
-    ],
-    "system": [
-      "foundation-model"
-    ],
-    "task": [
-      "classification"
-    ]
-  },
-  {
-    "title": "Segmentation of Whole-Slide Histology Images",
-    "authors": [
-      "Lee K."
-    ],
-    "venue": "MICCAI",
+    "venue": "Center for Open Science",
     "year": 2023,
-    "url": "https://example.org/wsi-seg",
-    "abstract": "Deep learning for pathology image segmentation.",
+    "url": "https://doi.org/10.31219/osf.io/hzfkx",
+    "code": "",
+    "abstract": "On June 7, 2023, Nature has published the article “The illusion of moral decline” by Mastroianni and Gilbert. The article substantiates that people believe in moral decline, and it reconfirms that this belief may be an illusion. The evidence provided is partly archival and partly experimental. To explain why the belief in moral decline is so pervasive although it may be an illusion, the authors furthermore propose a new theory based on two types of psychological bias (biased exposure to information and biased memory for information). The authors hasten to state that their theory provides at best one possible explanation, thus opening a debate on other potential explanations. In my present response to this Nature article, I would like to add another explanation based on common properties of evolutionary processes. My explanation does not require psychological bias. The only thing that one needs to assume is that human culture, like biological evolution, advances through a process of trial and error. Because this processes is a process of trial and error, people perceive that there is plenty of error, which makes them falsely extrapolate that their culture is in decline, overall. As a matter of fact, success is rare, and its impact is easily overlooked. Thus, the people and the media do not necessarily need to be biased for the illusion of cultural define to emerge. My theory—initially published before the new experimental data were collected—can explain both a broad array of past empirical observations as well as the new experimental data.",
     "type": [
-      "original"
-    ],
-    "domain": [
-      "medicine"
-    ],
-    "modality": [
-      "imaging"
-    ],
-    "system": [
-      "task-specific"
-    ],
-    "task": [
-      "segmentation"
-    ]
-  },
-  {
-    "title": "Single-cell RNA-seq integration across tissues",
-    "authors": [
-      "Chen X."
-    ],
-    "venue": "Nature Methods",
-    "year": 2022,
-    "url": "https://example.org/scrna-integration",
-    "abstract": "Integration and batch correction for single-cell transcriptomics.",
-    "type": [
-      "review"
+      "article"
     ],
     "domain": [
       "genomics"
     ],
     "modality": [
-      "single-cell",
-      "sequence"
-    ],
-    "system": [
-      "task-specific"
-    ],
-    "task": [
-      "integration",
-      "batch-correction"
-    ]
-  },
-  {
-    "title": "Climate-driven disease risk forecasting",
-    "authors": [
-      "Patel R."
-    ],
-    "venue": "Science Advances",
-    "year": 2021,
-    "url": "https://example.org/climate-risk",
-    "abstract": "Time-series models link climate features to disease outbreaks.",
-    "type": [
-      "original"
-    ],
-    "domain": [
-      "climate",
-      "medicine"
-    ],
-    "modality": [
-      "time-series"
-    ],
-    "system": [
-      "task-specific"
-    ],
-    "task": [
-      "prognosis"
-    ]
-  },
-  {
-    "title": "Protein structure prediction with foundation models",
-    "authors": [
-      "Kumar S."
-    ],
-    "venue": "arXiv",
-    "year": 2023,
-    "url": "https://arxiv.org/abs/2301.12345",
-    "abstract": "Foundation models for structure prediction and function annotation.",
-    "type": [
-      "original"
-    ],
-    "domain": [
-      "genomics"
-    ],
-    "modality": [
-      "sequence"
+      "brain"
     ],
     "system": [
       "foundation-model"
     ],
     "task": [
-      "structure-prediction",
-      "function-annotation"
+      "eural activity predicts response"
     ]
   }
 ]
