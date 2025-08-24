@@ -1,164 +1,61 @@
 {
-  "default_year": null,
   "tag_rules": {
     "genomics": [
       "genome",
       "genomic",
       "dna",
       "rna",
-      "transcriptomic",
       "single-cell",
-      "spatial transcriptomics"
+      "transcriptomic",
+      "spatial transcriptomics",
+      "protein structure",
+      "variant"
     ],
     "medicine": [
       "clinical",
-      "disease",
       "patient",
+      "disease",
       "diagnosis",
-      "prognosis"
-    ]
-  },
-  "modality_rules": {
-    "sequence": [
-      "dna",
-      "rna",
-      "rna-seq",
-      "wgs",
-      "chip-seq",
-      "atac-seq",
-      "variant"
-    ],
-    "imaging": [
-      "imaging",
-      "microscopy",
-      "histology",
+      "therapy",
+      "trial",
+      "EHR",
       "pathology",
-      "mri",
-      "ct",
-      "pet",
-      "slide",
-      "wsi"
+      "radiology"
     ],
-    "text": [
-      "nlp",
-      "language model",
-      "text-mining",
-      "literature",
-      "bert",
-      "gpt",
-      "llm"
+    "climate": [
+      "climate",
+      "weather",
+      "earth system",
+      "cyclone",
+      "hurricane",
+      "ocean wave",
+      "air quality",
+      "forecasting",
+      "meteorology"
     ],
-    "clinical": [
-      "ehr",
-      "clinical note",
-      "icd",
-      "loinc",
-      "phenotype"
+    "environment": [
+      "environment",
+      "ecology",
+      "ecosystem",
+      "biodiversity",
+      "pollution"
     ],
-    "time-series": [
-      "time series",
-      "longitudinal",
-      "temporal",
-      "sensor"
+    "marine": [
+      "marine",
+      "ocean",
+      "sea",
+      "coastal",
+      "coral"
     ],
-    "single-cell": [
-      "single-cell",
-      "scrna",
-      "scrna-seq",
-      "merfish",
-      "stereo-seq"
-    ],
-    "multimodal": [
-      "multimodal",
-      "multi-modal",
-      "fusion",
-      "cross-modal",
-      "vision-language",
-      "image and rna"
-    ]
-  },
-  "task_rules": {
-    "classification": [
-      "classify",
-      "classification",
-      "predict",
-      "prediction",
-      "diagnosis",
-      "phenotyping",
-      "label"
-    ],
-    "segmentation": [
-      "segment",
-      "segmentation",
-      "mask",
-      "delineation"
-    ],
-    "diagnosis": [
-      "diagnosis",
-      "detect disease",
-      "screening"
-    ],
-    "prognosis": [
-      "prognosis",
-      "survival",
-      "time-to-event",
-      "risk"
-    ],
-    "de-novo-design": [
-      "design",
-      "generative",
-      "de novo",
-      "de-novo",
-      "protein design",
-      "drug design"
-    ],
-    "structure-prediction": [
-      "structure prediction",
-      "folding",
-      "structure"
-    ],
-    "function-annotation": [
-      "function annotation",
-      "annotation",
-      "go term",
-      "functional"
-    ],
-    "variant-calling": [
-      "variant calling",
-      "snp",
-      "indel",
-      "sv",
-      "variant"
-    ],
-    "cell-typing": [
-      "cell typing",
-      "cell-type",
-      "cell type"
-    ],
-    "integration": [
-      "integrat",
-      "align",
-      "map",
-      "harmoniz",
-      "anchor"
-    ],
-    "batch-correction": [
-      "batch",
-      "confounder",
-      "remove batch",
-      "combat"
-    ],
-    "literature-mining": [
-      "literature",
-      "text-mining",
-      "knowledge graph",
-      "relation extraction"
-    ],
-    "workflow-orchestration": [
-      "agent",
-      "workflow",
-      "pipeline",
-      "automation"
+    "plant": [
+      "plant",
+      "botany",
+      "crop",
+      "agriculture",
+      "arabidopsis",
+      "rice",
+      "maize",
+      "wheat"
     ]
   }
 }
