@@ -21,16 +21,16 @@
       "Richard E. Turner",
       "Paris Perdikaris"
     ],
-    "venue": "arXiv",
-    "year": 2024,
-    "url": "http://arxiv.org/abs/2405.13063v3",
+    "venue": "nature",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41586-025-09005-y",
     "code": "",
     "abstarct": "",
     "type": [],
     "domain": [
       "climate"
     ],
-    "modality": [],
+    "modality": ["gheophysical"],
     "system": [],
     "task": [
       "classification"
