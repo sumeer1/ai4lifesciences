@@ -1,3 +1,4 @@
 url,type,domain,modality,system,task,notes
-https://www.nature.com/articles/s41586-025-08829-y,article,genomics,brain,foundation-model,eural activity predicts response,"This model generalized to new mice with minimal training and successfully predicted responses across various new stimulus domains, such as coherent motion and noise patterns. Beyond neural response prediction, the model also accurately predicted anatomical cell types, dendritic features and neuronal connectivity within the MICrONS functional connectomics dataset"
+https://www.nature.com/articles/s41586-025-09005-y,,,,,,
+
 
