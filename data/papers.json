@@ -1,39 +1,20 @@
 [
   {
-    "title": "A Foundation Model for the Earth System",
+    "title": "https://euroasia-science.ru/pdf-arxiv/the-controllability-function-of-polynomial-for-descriptor-systems-23-31/",
     "authors": [
-      "Cristian Bodnar",
-      "Wessel P. Bruinsma",
-      "Ana Lucic",
-      "Megan Stanley",
-      "Anna Vaughan",
-      "Johannes Brandstetter",
-      "Patrick Garvan",
-      "Maik Riechert",
-      "Jonathan A. Weyn",
-      "Haiyu Dong",
-      "Jayesh K. Gupta",
-      "Kit Thambiratnam",
-      "Alexander T. Archibald",
-      "Chun-Chieh Wu",
-      "Elizabeth Heider",
-      "Max Welling",
-      "Richard E. Turner",
-      "Paris Perdikaris"
+      "Le Hai Trung"
     ],
-    "venue": "nature",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/s41586-025-08829-y",
+    "venue": "EurasianUnionScientists",
+    "year": 2019,
+    "url": "https://doi.org/10.31618/esu.2413-9335.2019.4.65.275",
     "code": "",
-    "abstract": "Reliable forecasts of the Earth system are crucial for human progress and safety from natural disasters. Artificial intelligence offers substantial potential to improve prediction accuracy and computational efficiency in this field, however this remains underexplored in many domains. Here we introduce Aurora, a large-scale foundation model for the Earth system trained on over a million hours of diverse data. Aurora outperforms operational forecasts for air quality, ocean waves, tropical cyclone tracks, and high-resolution weather forecasting at orders of magnitude smaller computational expense than dedicated existing systems. With the ability to fine-tune Aurora to diverse application domains at only modest computational cost, Aurora represents significant progress in making actionable Earth system predictions accessible to anyone.",
+    "abstract": "",
     "type": [],
-    "domain": ["climate"],
+    "domain": [],
     "modality": [
-      "geophysical"
+      "imaging"
     ],
     "system": [],
-    "task": [
-      "classification"
-    ]
+    "task": []
   }
 ]
