@@ -1,23 +1,22 @@
 [
   {
-    "title": "Large Language Models for Clinical Text",
+    "title": "A foundation model for the Earth system",
     "authors": [
-      "Doe J.",
-      "Smith A."
+      "Cristian Bodnar",
+      "Paris Perdikaris"
     ],
-    "venue": "BioNLP",
-    "year": 2024,
-    "url": "https://example.org/llm-clinical",
-    "abstract": "Explores LLMs for EHR notes; classification and phenotyping tasks.",
+    "venue": "nature ",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41586-025-09005-y",
+    "abstract": "efficient Earth system predictions. These results highlight the transformative potential of AI in environmental forecasting and pave the way for broader accessibility to high-quality climate and weather information..",
     "type": [
       "original"
     ],
     "domain": [
-      "medicine"
+      "climate"
     ],
     "modality": [
-      "text",
-      "clinical"
+      "geophysical"
     ],
     "system": [
       "foundation-model"
