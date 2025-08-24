@@ -1,61 +1,96 @@
 {
+  "default_year": null,
   "tag_rules": {
     "genomics": [
-      "genome",
       "genomic",
       "dna",
       "rna",
-      "single-cell",
-      "transcriptomic",
-      "spatial transcriptomics",
-      "protein structure",
-      "variant"
+      "single-cell"
     ],
     "medicine": [
       "clinical",
-      "patient",
       "disease",
-      "diagnosis",
-      "therapy",
-      "trial",
-      "EHR",
-      "pathology",
-      "radiology"
+      "patient"
     ],
     "climate": [
       "climate",
-      "weather",
-      "earth system",
-      "cyclone",
-      "hurricane",
-      "ocean wave",
-      "air quality",
-      "forecasting",
-      "meteorology"
+      "weather"
     ],
     "environment": [
       "environment",
-      "ecology",
-      "ecosystem",
-      "biodiversity",
-      "pollution"
+      "ecology"
     ],
     "marine": [
       "marine",
-      "ocean",
-      "sea",
-      "coastal",
-      "coral"
+      "ocean"
     ],
     "plant": [
       "plant",
-      "botany",
-      "crop",
-      "agriculture",
-      "arabidopsis",
-      "rice",
-      "maize",
-      "wheat"
+      "crop"
+    ]
+  },
+  "modality_rules": {
+    "sequence": [
+      "dna",
+      "rna",
+      "rna-seq"
+    ],
+    "imaging": [
+      "image",
+      "histology",
+      "wsi",
+      "microscopy"
+    ],
+    "text": [
+      "nlp",
+      "gpt",
+      "llm"
+    ],
+    "clinical": [
+      "ehr",
+      "clinical note"
+    ],
+    "time-series": [
+      "time series",
+      "temporal"
+    ],
+    "single-cell": [
+      "single-cell",
+      "scrna"
+    ],
+    "multimodal": [
+      "multimodal",
+      "vision-language"
+    ]
+  },
+  "task_rules": {
+    "classification": [
+      "classify",
+      "classification",
+      "predict"
+    ],
+    "segmentation": [
+      "segment",
+      "segmentation"
+    ],
+    "prognosis": [
+      "prognosis",
+      "risk"
+    ],
+    "structure-prediction": [
+      "structure prediction",
+      "folding"
+    ],
+    "function-annotation": [
+      "function annotation",
+      "functional"
+    ],
+    "integration": [
+      "integration",
+      "integrate"
+    ],
+    "batch-correction": [
+      "batch"
     ]
   }
 }
