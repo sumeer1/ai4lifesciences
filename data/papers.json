@@ -21,14 +21,14 @@
       "Richard E. Turner",
       "Paris Perdikaris"
     ],
-    "venue": "arXiv",
+    "venue": "nature",
     "year": 2024,
-    "url": "http://arxiv.org/abs/2405.13063v3",
+    "url": "https://www.nature.com/articles/s41586-025-09005-y",
     "code": "",
     "abstract": "Reliable forecasts of the Earth system are crucial for human progress and safety from natural disasters. Artificial intelligence offers substantial potential to improve prediction accuracy and computational efficiency in this field, however this remains underexplored in many domains. Here we introduce Aurora, a large-scale foundation model for the Earth system trained on over a million hours of diverse data. Aurora outperforms operational forecasts for air quality, ocean waves, tropical cyclone tracks, and high-resolution weather forecasting at orders of magnitude smaller computational expense than dedicated existing systems. With the ability to fine-tune Aurora to diverse application domains at only modest computational cost, Aurora represents significant progress in making actionable Earth system predictions accessible to anyone.",
     "type": [],
-    "domain": [],
-    "modality": [],
+    "domain": ["climate"],
+    "modality": [geophysical data],
     "system": [],
     "task": [
       "classification"
