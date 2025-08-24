@@ -38,3 +38,22 @@
     "task": ["prediction"]
   }
 ]
+
+    "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+    "authors": [
+      "Haotian Cui, et.al,."
+    ],
+    "venue": "nature",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41592-024-02201-0",
+    "code": "",
+    "abstarct": "",
+    "type": [],
+    "domain": [
+      "genomics"
+    ],
+    "modality": ["rna-seq"],
+    "system": [],
+    "task": ["prediction","classification"]
+  }
+]
