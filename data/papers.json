@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Getting Started \u2014 Replace these examples with your course papers",
+    "authors": [
+      "Your Name"
+    ],
+    "venue": "Course",
+    "year": 2025,
+    "url": "https://example.org",
+    "code": "",
+    "abstract": "Delete me and add real entries in data/papers.json or push URLs into data/sources.csv.",
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "genomics",
+      "medicine"
+    ],
+    "modality": [
+      "multimodal"
+    ],
+    "system": [
+      "foundation-model"
+    ],
+    "task": [
+      "classification"
+    ]
+  }
+]
