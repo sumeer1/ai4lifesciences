@@ -1,6 +1,5 @@
 // Clean UI app (no System Class / Type). Domains are controlled by the topic rail.
-// const TOPICS = ["All","genomics","medicine","climate","environment","marine","plant"];
-const TOPICS = ["All","genomics","medicine","climate","marine","plant"];
+const TOPICS = ["All","genomics","medicine","climate","environment","marine","plant"];
 const FACETS = { modality: "facet-modality", task: "facet-task" };
 
 let ALL = []; 
@@ -43,7 +42,7 @@ const els = {
   document.addEventListener("keydown", (e)=>{ if(e.key === "/" && document.activeElement !== els.search){ e.preventDefault(); els.search.focus(); }});
   els.year.addEventListener("change", () => { ACTIVE.year = els.year.value; render(); syncURL(); });
   els.clear.addEventListener("click", () => { resetFilters(); render(); syncURL(); });
-  //els.share.addEventListener("click", copyShareLink);
+  els.share.addEventListener("click", copyShareLink);
   els.sort.addEventListener("change", ()=>{ render(); syncURL(); });
 
   hydrateFromURL(); render(); updateTopicRailState();
@@ -166,5 +165,5 @@ function card(p) {
     </div>`; return d;
 }
 function renderTags(label, arr) { if (!arr || !arr.length) return ""; return `<span class="tag"><strong>${label}:</strong> ${arr.join(", ")}</span>`; }
-// function copyShareLink() { navigator.clipboard.writeText(location.href).then(()=>{ els.share.textContent = "Link copied ✓"; setTimeout(()=> els.share.textContent = "Copy shareable link", 1200); }); }
+function copyShareLink() { navigator.clipboard.writeText(location.href).then(()=>{ els.share.textContent = "Link copied ✓"; setTimeout(()=> els.share.textContent = "Copy shareable link", 1200); }); }
 function escapeHTML(s){ return (s||"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
