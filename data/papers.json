@@ -284,7 +284,7 @@
   "modality": ["protein"],
   "system": ["agents"],
   "task": ["design", "generation", "drug_discovery"]
-},
+}
   
 
 
