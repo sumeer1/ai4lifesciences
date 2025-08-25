@@ -1,5 +1,5 @@
 // Clean UI app (no System Class / Type). Domains are controlled by the topic rail.
-const TOPICS = ["All","genomics","medicine","neuroscience", "climate","marine","plant","reviews"]; // removed "environment", added "reviews"
+const TOPICS = ["All","genomics","medicine","neuroscience", "agentic", "climate","marine","plant","reviews"]; // removed "environment", added "reviews"
 const FACETS = { modality: "facet-modality", task: "facet-task" };
 
 let ALL = [];
