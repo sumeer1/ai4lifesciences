@@ -284,12 +284,97 @@
   "modality": ["protein"],
   "system": ["agents"],
   "task": ["design", "generation", "drug_discovery"]
-}
-  
-
-
-
-
+},
+    {
+    "title": "A large language model–based foundation model for edible plant genomes",
+    "authors": ["Javier Mendoza-Revilla et al."],
+    "venue": "Communications Biology",
+    "date": "2024-07-09",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s42003-024-06465-2",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["plant"],
+    "modality": ["dna"],
+    "system": [],
+    "task": ["prediction"]
+  },
+    {
+    "title": "Foundation models in plant molecular biology: current landscape and future directions",
+    "authors": ["Feng Xu et al."],
+    "venue": "Frontiers in Plant Science",
+    "date": "2025-06-03",
+    "year": 2025,
+    "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
+    "code": "",
+    "abstract": "",
+    "type": ["review"],
+    "domain": ["plant"],
+    "modality": ["rna","dna"],
+    "system": [],
+    "task": []
+  },
+    {
+    "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
+    "authors": ["Zhizheng Wang et al."],
+    "venue": "Nature Methods",
+    "date": "2025-07-28",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41592-025-02748-6",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["agentic"],
+    "modality": ["text"],
+    "system": ["agent-based"],
+    "task": ["analysis"]
+  },
+    {
+    "title": "Generative AI for designing and validating easily synthesizable and structurally novel antibiotics",
+    "authors": ["Kyle Swanson et al."],
+    "venue": "Nature Machine Intelligence",
+    "date": "2024-03-22",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s42256-024-00809-7",
+    "code": "https://github.com/swansonk14/SyntheMol",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["medicine"],
+    "modality": [],
+    "system": [],
+    "task": ["generation"]
+  },
+    {
+    "title": "A pathologist–AI collaboration framework for enhancing diagnostic accuracies and efficiencies",
+    "authors": ["Zhi Huang et al."],
+    "venue": "Nature Biomedical Engineering",
+    "date": "2024-06-19",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41551-024-01223-5",
+    "code": "https://huangzhii.github.io/nuclei-HAI",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["medicine"],
+    "modality": ["imaging"],
+    "system": ["human-in-the-loop"],
+    "task": ["classification"]
+  },
+  {
+    "title": "Simple and effective embedding model for single-cell biology built from ChatGPT",
+    "authors": ["Yiqun Chen et al."],
+    "venue": "Nature Biomedical Engineering",
+    "date": "2024-12-06",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41551-024-01284-6",
+    "code": "https://github.com/yiqunchen/GenePT",
+    "abstract": "",
+    "type": ["original-article"],
+    "domain": ["genomics"],
+    "modality": ["single-cell","text"],
+    "system": [],
+    "task": ["embedding","prediction"]
+  }
   
 ]
 
