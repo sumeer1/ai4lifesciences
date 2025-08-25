@@ -165,5 +165,5 @@ function card(p) {
     </div>`; return d;
 }
 function renderTags(label, arr) { if (!arr || !arr.length) return ""; return `<span class="tag"><strong>${label}:</strong> ${arr.join(", ")}</span>`; }
-function copyShareLink() { navigator.clipboard.writeText(location.href).then(()=>{ els.share.textContent = "Link copied ✓"; setTimeout(()=> els.share.textContent = "Copy shareable link", 1200); }); }
+// function copyShareLink() { navigator.clipboard.writeText(location.href).then(()=>{ els.share.textContent = "Link copied ✓"; setTimeout(()=> els.share.textContent = "Copy shareable link", 1200); }); }
 function escapeHTML(s){ return (s||"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
