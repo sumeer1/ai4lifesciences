@@ -252,7 +252,7 @@
     "code": "",
     "abstract": "",
     "type": ["review"],
-    "domain": ["medicine"],
+    "domain": ["agentic"],
     "modality": ["multimodal"],
     "system": [],
     "task": []
