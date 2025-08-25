@@ -270,7 +270,23 @@
     "modality": ["sequence"],
     "system": [],
     "task": ["structure_prediction"]
-  }
+  },
+  {
+  "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+  "authors": ["First Author et al."],
+  "venue": "",
+  "year": 2025,
+  "url": "",
+  "code": "",
+  "abstract": "",
+  "type": ["article"],
+  "domain": ["agentic"],
+  "modality": ["protein"],
+  "system": ["agents"],
+  "task": ["design", "generation", "drug_discovery"]
+},
+  
+
 
 
 
