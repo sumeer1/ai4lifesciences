@@ -1,5 +1,6 @@
 // Clean UI app (no System Class / Type). Domains are controlled by the topic rail.
-const TOPICS = ["All","genomics","medicine","climate","environment","marine","plant"];
+// const TOPICS = ["All","genomics","medicine","climate","environment","marine","plant"];
+const TOPICS = ["All","genomics","medicine","climate","marine","plant"];
 const FACETS = { modality: "facet-modality", task: "facet-task" };
 
 let ALL = []; 
@@ -42,7 +43,7 @@ const els = {
   document.addEventListener("keydown", (e)=>{ if(e.key === "/" && document.activeElement !== els.search){ e.preventDefault(); els.search.focus(); }});
   els.year.addEventListener("change", () => { ACTIVE.year = els.year.value; render(); syncURL(); });
   els.clear.addEventListener("click", () => { resetFilters(); render(); syncURL(); });
-  els.share.addEventListener("click", copyShareLink);
+  //els.share.addEventListener("click", copyShareLink);
   els.sort.addEventListener("change", ()=>{ render(); syncURL(); });
 
   hydrateFromURL(); render(); updateTopicRailState();
