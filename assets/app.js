@@ -1,9 +1,9 @@
 // Clean UI app (no System Class / Type). Domains are controlled by the topic rail.
-const TOPICS = ["All","genomics","medicine","neuroscience","climate","marine","plant"];
+const TOPICS = ["All","genomics","medicine","neuroscience", "climate","marine","plant","reviews"]; // removed "environment", added "reviews"
 const FACETS = { modality: "facet-modality", task: "facet-task" };
 
-let ALL = []; 
-let ACTIVE = { search: "", year: "", domain: [], modality: [], task: [] };
+let ALL = [];
+let ACTIVE = { search: "", year: "", domain: [], modality: [], task: [], typeTab: "" }; // + typeTab for reviews/perspectives
 
 const els = {
   topicRail: document.getElementById("topic-rail"),
@@ -13,11 +13,13 @@ const els = {
   year: document.getElementById("year"),
   count: document.getElementById("count"),
   clear: document.getElementById("clear"),
-  share: document.getElementById("share"),
+  // share REMOVED
   sort: document.getElementById("sort"),
   add: document.getElementById("addPaperBtn"),
   repo: document.getElementById("repoLink"),
 };
+
+(function hasReviewInitGuard(){})();
 
 (async function init() {
   ALL = await (await fetch("data/papers.json", { cache: "no-store" })).json();
@@ -42,7 +44,7 @@ const els = {
   document.addEventListener("keydown", (e)=>{ if(e.key === "/" && document.activeElement !== els.search){ e.preventDefault(); els.search.focus(); }});
   els.year.addEventListener("change", () => { ACTIVE.year = els.year.value; render(); syncURL(); });
   els.clear.addEventListener("click", () => { resetFilters(); render(); syncURL(); });
-  els.share.addEventListener("click", copyShareLink);
+  // share REMOVED
   els.sort.addEventListener("change", ()=>{ render(); syncURL(); });
 
   hydrateFromURL(); render(); updateTopicRailState();
@@ -63,20 +65,31 @@ const els = {
   }catch(e){}
 })();
 
+function hasReview(p) {
+  const t = (p.type || []).map(x => String(x).toLowerCase());
+  return t.includes("review") || t.includes("perspective");
+}
+
 function buildTopicRail(){
   els.topicRail.innerHTML = "";
   for (const t of TOPICS){
     const label = t === "All" ? "All" : t;
-    const count = t === "All" ? ALL.length : ALL.filter(p => (p.domain||[]).includes(t)).length;
+    const count = (
+      t === "All" ? ALL.length :
+      t === "reviews" ? ALL.filter(hasReview).length :
+      ALL.filter(p => (p.domain||[]).includes(t)).length
+    );
     const chip = document.createElement("button");
     chip.className = "topic"; chip.dataset.topic = t;
     chip.textContent = count ? `${label} (${count})` : label;
     chip.addEventListener("click", () => {
-      // toggle when clicking same chip; otherwise single-select
-      if (ACTIVE.domain.length === 1 && ACTIVE.domain[0] === t) {
-        ACTIVE.domain = []; // toggle off -> All
+      const same = (ACTIVE.domain.length === 1 && ACTIVE.domain[0] === t) || (ACTIVE.typeTab === "reviews" && t === "reviews");
+      if (t === "All" || same) {
+        ACTIVE.domain = []; ACTIVE.typeTab = "";
+      } else if (t === "reviews") {
+        ACTIVE.domain = []; ACTIVE.typeTab = "reviews";
       } else {
-        ACTIVE.domain = (t === "All") ? [] : [t];
+        ACTIVE.typeTab = ""; ACTIVE.domain = [t];
       }
       render(); syncURL(); updateTopicRailState();
     });
@@ -84,7 +97,7 @@ function buildTopicRail(){
   }
 }
 function updateTopicRailState(){
-  const sel = ACTIVE.domain.length ? ACTIVE.domain[0] : "All";
+  const sel = ACTIVE.typeTab === "reviews" ? "reviews" : (ACTIVE.domain.length ? ACTIVE.domain[0] : "All");
   document.querySelectorAll(".topic").forEach(c => c.classList.toggle("on", c.dataset.topic === sel));
 }
 function makeChip(key, value) {
@@ -96,7 +109,7 @@ function makeChip(key, value) {
   }); return el;
 }
 function resetFilters() {
-  ACTIVE = { search: "", year: "", domain: [], modality: [], task: [] };
+  ACTIVE = { search: "", year: "", domain: [], modality: [], task: [], typeTab: "" };
   els.search.value = ""; els.year.value = ""; document.querySelectorAll(".chip").forEach(c => c.classList.remove("on"));
   updateTopicRailState();
 }
@@ -114,9 +127,10 @@ function hydrateFromURL() {
     const k = c.dataset.key, v = c.dataset.value; if (ACTIVE[k].includes(v)) c.classList.add("on");
   });
 
-  // domain via topics
+  // domain via topics (URL param unchanged); reviews tab via ?tab=reviews (optional)
   const dom = params.get("domain");
   ACTIVE.domain = dom ? dom.split(",").filter(Boolean) : [];
+  ACTIVE.typeTab = (params.get("tab") === "reviews") ? "reviews" : "";
   updateTopicRailState();
 }
 function syncURL() {
@@ -125,6 +139,7 @@ function syncURL() {
   if (ACTIVE.year) params.set("year", ACTIVE.year);
   for (const k of Object.keys(FACETS)) if (ACTIVE[k].length) params.set(k, ACTIVE[k].join(","));
   if (ACTIVE.domain.length) params.set("domain", ACTIVE.domain.join(","));
+  if (ACTIVE.typeTab === "reviews") params.set("tab", "reviews"); // encode selected reviews tab
   if (els.sort.value && els.sort.value !== 'year-desc') params.set('sort', els.sort.value);
   history.replaceState({}, "", params.toString() ? `?${params}` : location.pathname);
 }
@@ -135,12 +150,23 @@ function matchesSearch(p) {
 }
 function matchesFacets(p) {
   if (ACTIVE.year && String(p.year) !== String(ACTIVE.year)) return false;
-  if (ACTIVE.domain.length) { const have = p.domain || []; if (!ACTIVE.domain.some(v => have.includes(v))) return false; }
+
+  // Reviews tab filter
+  if (ACTIVE.typeTab === "reviews" && !hasReview(p)) return false;
+
+  // Domain topic filter
+  if (ACTIVE.domain.length) {
+    const have = p.domain || [];
+    if (!ACTIVE.domain.some(v => have.includes(v))) return false;
+  }
+
+  // Other facets
   for (const k of Object.keys(FACETS)) {
     const need = ACTIVE[k]; if (!need.length) continue;
     const have = p[k] || []; const ok = need.some(v => have.includes(v));
     if (!ok) return false;
-  } return true;
+  }
+  return true;
 }
 function render() {
   let filtered = ALL.filter(p => matchesSearch(p) && matchesFacets(p));
@@ -149,7 +175,7 @@ function render() {
                          if(s==='year-asc') return (a.year||0)-(b.year||0);
                          if(s==='title-asc') return String(a.title).localeCompare(String(b.title)); return 0; });
   els.count.textContent = `${filtered.length} result${filtered.length!==1?"s":""}`;
-  els.results.innerHTML = ""; 
+  els.results.innerHTML = "";
   if (!filtered.length) { els.empty.classList.remove("hidden"); } else { els.empty.classList.add("hidden"); }
   for (const p of filtered) els.results.appendChild(card(p));
 }
@@ -165,5 +191,6 @@ function card(p) {
     </div>`; return d;
 }
 function renderTags(label, arr) { if (!arr || !arr.length) return ""; return `<span class="tag"><strong>${label}:</strong> ${arr.join(", ")}</span>`; }
-function copyShareLink() { navigator.clipboard.writeText(location.href).then(()=>{ els.share.textContent = "Link copied ✓"; setTimeout(()=> els.share.textContent = "Copy shareable link", 1200); }); }
+// copyShareLink REMOVED
 function escapeHTML(s){ return (s||"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
