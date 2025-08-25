@@ -125,9 +125,7 @@
     "modality": ["multimodal"],
     "system": [],
     "task": ["multitask"]
-  },
-
-  
+  } 
 ]
 
 
