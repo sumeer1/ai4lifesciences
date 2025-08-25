@@ -14,20 +14,6 @@
     "task": ["classification"]
   },
   {
-    "title": "Foundation model of neural activity predicts response to new stimulus types",
-    "authors": ["Eric Y. Wang et al."],
-    "venue": "Nature",
-    "year": 2025,
-    "url": "https://www.nature.com/articles/s41586-025-08829-y",
-    "code": "",
-    "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["imaging"],
-    "system": [],
-    "task": ["prediction"]
-  },
-  {
     "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
     "authors": ["Haotian Cui et al."],
     "venue": "Nature Methods",
@@ -40,5 +26,108 @@
     "modality": ["rna"],
     "system": [],
     "task": ["prediction"]
-  }
+  },
+  {
+    "title": "scBERT as a large-scale pre-trained deep language model for cell type annotation of single-cell RNA-seq data",
+    "authors": ["Fan Yang et al."],
+    "venue": "Nature Machine Intelligence",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s42256-022-00534-z",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["genomics"],
+    "modality": ["rna"],
+    "system": [],
+    "task": ["classification"]
+  },
+  {
+    "title": "Foundation model of neural activity predicts response to new stimulus types",
+    "authors": ["Eric Y. Wang et al."],
+    "venue": "Nature",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41586-025-08829-y",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["neuroscience"],
+    "modality": ["neurophysiology"],
+    "system": [],
+    "task": ["prediction"]
+  },
+
+  {
+    "title": "A foundation model to predict and capture human cognition",
+    "authors": ["Kaitlyn L. Dorst et al."],
+    "venue": "Nature",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41586-025-09215-4",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["neuroscience"],
+    "modality": ["neuroimaging"],
+    "system": [],
+    "task": ["prediction"]
+  },
+    {
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "authors": ["Hanchen Wang et al."],
+    "venue": "Nature",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41586-023-06221-2",
+    "code": "",
+    "abstract": "",
+    "type": ["perspective"],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+    {
+    "title": "Improved clinical-grade computational pathology and detection of rare cancers via foundation models",
+    "authors": ["Eugene Vorontsov et al."],
+    "venue": "Nature Medicine",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41591-024-03141-0",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["medicine"],
+    "modality": ["imaging"],
+    "system": [],
+    "task": ["classification"]
+  },
+    {
+    "title": "A visual-language foundation model for computational pathology",
+    "authors": ["Ming Y. Lu et al."],
+    "venue": "Nature Medicine",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41591-024-02856-4",
+    "code": "",
+    "abstract": "",
+    "type": ["article"],
+    "domain": ["medicine"],
+    "modality": ["imaging"],
+    "system": [],
+    "task": ["classification"]
+  },
+    {
+    "title": "A generalist vision–language foundation model for diverse biomedical tasks",
+    "authors": ["Kai Zhang et al."],
+    "venue": "Nature Medicine",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41591-024-03185-2",
+    "code": "",
+    "abstract": "",
+    "type": ["article],
+    "domain": ["medicine"],
+    "modality": ["multimodal"],
+    "system": [],
+    "task": ["multitask"]
+  },
+
+  
 ]
+
+
