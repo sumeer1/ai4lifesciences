@@ -58,8 +58,14 @@ const els = {
         const title = encodeURIComponent('Add paper: <paste title or URL>');
         const body = encodeURIComponent('**URL**:\n\n**Notes** (optional):');
         const labels = encodeURIComponent(cfg.label || 'add-paper');
-        const link = `https://github.com/${cfg.owner}/${cfg.repo}/issues/new?labels=${labels}&title=${title}&body=${body}`;
-        window.open(link, '_blank');
+        //const link = `https://github.com/${cfg.owner}/${cfg.repo}/issues/new?labels=${labels}&title=${title}&body=${body}`;
+        //window.open(link, '_blank');
+        const labels = encodeURIComponent(cfg.label || "add-paper");
+        const link = `https://github.com/${cfg.owner}/${cfg.repo}/issues/new?template=add-paper.yml&labels=${labels}`;
+        // optional default title:
+        // const link = `https://github.com/${cfg.owner}/${cfg.repo}/issues/new?template=add-paper.yml&labels=${labels}&title=${encodeURIComponent("Add paper")}`;
+        window.open(link, "_blank");
+
       });
     }
   }catch(e){}
