@@ -310,7 +310,7 @@
     "code": "",
     "abstract": "",
     "type": ["review"],
-    "domain": ["plant"],
+    "domain": ["review"],
     "modality": ["rna","dna"],
     "system": [],
     "task": []
