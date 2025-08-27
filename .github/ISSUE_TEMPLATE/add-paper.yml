@@ -1,0 +1,45 @@
+name: Add paper
+description: Paste a paper URL and (optionally) tags.
+title: "Add paper"
+labels: ["add-paper"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Paper URL
+      description: Paste the canonical URL (publisher page, arXiv, DOI, etc.)
+      placeholder: "https://www.nature.com/articles/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: ["original","review","perspective"]
+  - type: checkboxes
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - { label: genomics }
+        - { label: medicine }
+        - { label: neuroscience }
+        - { label: climate }
+        - { label: marine }
+        - { label: plant }
+        - { label: agentic }
+  - type: input
+    id: modality
+    attributes:
+      label: Modality tags (comma-separated)
+      placeholder: "imaging, rna, sequence, geophysical, text..."
+  - type: input
+    id: task
+    attributes:
+      label: Task tags (comma-separated)
+      placeholder: "prediction, classification, design..."
+  - type: input
+    id: year
+    attributes:
+      label: Year (optional)
+      placeholder: "2025"
