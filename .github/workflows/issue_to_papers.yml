@@ -12,7 +12,8 @@ permissions:
 jobs:
   add-paper:
     # Only run when the issue has the "add-paper" label (your form adds it)
-    if: contains(github.event.issue.labels.*.name, 'add-paper')
+    #if: contains(github.event.issue.labels.*.name, 'add-paper')
+    if: contains(github.event.issue.labels.*.name, 'add-paper') || contains(github.event.issue.body, 'Paper URL')
     runs-on: ubuntu-latest
 
     steps:
