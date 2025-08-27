@@ -1,381 +1,643 @@
 [
   {
     "title": "A Foundation Model for the Earth System",
-    "authors": ["Cristian Bodnar et al."],
+    "authors": [
+      "Cristian Bodnar et al."
+    ],
     "venue": "Nature",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41586-025-09005-y",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["climate"],
-    "modality": ["geophysical"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "climate"
+    ],
+    "modality": [
+      "geophysical"
+    ],
     "system": [],
-    "task": ["classification"]
+    "task": [
+      "classification"
+    ]
   },
   {
     "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
-    "authors": ["Haotian Cui et al."],
+    "authors": [
+      "Haotian Cui et al."
+    ],
     "venue": "Nature Methods",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41592-024-02201-0",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["genomics"],
-    "modality": ["rna"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "rna"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
   {
     "title": "scBERT as a large-scale pre-trained deep language model for cell type annotation of single-cell RNA-seq data",
-    "authors": ["Fan Yang et al."],
+    "authors": [
+      "Fan Yang et al."
+    ],
     "venue": "Nature Machine Intelligence",
     "year": 2022,
     "url": "https://www.nature.com/articles/s42256-022-00534-z",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["genomics"],
-    "modality": ["rna"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "rna"
+    ],
     "system": [],
-    "task": ["classification"]
+    "task": [
+      "classification"
+    ]
   },
   {
     "title": "Foundation model of neural activity predicts response to new stimulus types",
-    "authors": ["Eric Y. Wang et al."],
+    "authors": [
+      "Eric Y. Wang et al."
+    ],
     "venue": "Nature",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41586-025-08829-y",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["neuroscience"],
-    "modality": ["neurophysiology"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "neuroscience"
+    ],
+    "modality": [
+      "neurophysiology"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
-
   {
     "title": "A foundation model to predict and capture human cognition",
-    "authors": ["Kaitlyn L. Dorst et al."],
+    "authors": [
+      "Kaitlyn L. Dorst et al."
+    ],
     "venue": "Nature",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41586-025-09215-4",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["neuroscience"],
-    "modality": ["neuroimaging"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "neuroscience"
+    ],
+    "modality": [
+      "neuroimaging"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
-    {
+  {
     "title": "Scientific discovery in the age of artificial intelligence",
-    "authors": ["Hanchen Wang et al."],
+    "authors": [
+      "Hanchen Wang et al."
+    ],
     "venue": "Nature",
     "year": 2023,
     "url": "https://www.nature.com/articles/s41586-023-06221-2",
     "code": "",
     "abstract": "",
-    "type": ["perspective"],
+    "type": [
+      "perspective"
+    ],
     "domain": [],
     "modality": [],
     "system": [],
     "task": []
   },
-    {
+  {
     "title": "Improved clinical-grade computational pathology and detection of rare cancers via foundation models",
-    "authors": ["Eugene Vorontsov et al."],
+    "authors": [
+      "Eugene Vorontsov et al."
+    ],
     "venue": "Nature Medicine",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03141-0",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["imaging"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "imaging"
+    ],
     "system": [],
-    "task": ["classification"]
+    "task": [
+      "classification"
+    ]
   },
-    {
+  {
     "title": "A visual-language foundation model for computational pathology",
-    "authors": ["Ming Y. Lu et al."],
+    "authors": [
+      "Ming Y. Lu et al."
+    ],
     "venue": "Nature Medicine",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-02856-4",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["imaging"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "imaging"
+    ],
     "system": [],
-    "task": ["classification"]
+    "task": [
+      "classification"
+    ]
   },
-    {
+  {
     "title": "A generalist vision–language foundation model for diverse biomedical tasks",
-    "authors": ["Kai Zhang et al."],
+    "authors": [
+      "Kai Zhang et al."
+    ],
     "venue": "Nature Medicine",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03185-2",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["multimodal"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
-    "task": ["multitask"]
+    "task": [
+      "multitask"
+    ]
   },
-    {
+  {
     "title": "An evaluation framework for clinical use of large language models in patient interaction tasks",
-    "authors": ["Shreya Johri et al."],
+    "authors": [
+      "Shreya Johri et al."
+    ],
     "venue": "Nature Medicine",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41591-024-03328-5",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["language"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "language"
+    ],
     "system": [],
-    "task": ["evaluation"]
+    "task": [
+      "evaluation"
+    ]
   },
-
-
   {
     "title": "A foundation model for clinician-centered drug repurposing",
-    "authors": ["Kexin Huang et al."],
+    "authors": [
+      "Kexin Huang et al."
+    ],
     "venue": "Nature Medicine",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03233-x",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["medicine"],
-    "modality": ["knowledge_graph"],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "knowledge_graph"
+    ],
     "system": [],
-    "task": ["drug_repurposing"]
+    "task": [
+      "drug_repurposing"
+    ]
   },
-    {
+  {
     "title": "A multimodal generative AI copilot for human pathology",
-    "authors": ["Ming Y. Lu et al."],
+    "authors": [
+      "Ming Y. Lu et al."
+    ],
     "venue": "Nature",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41586-024-07618-3",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["medicine"],
-    "modality": ["multimodal"],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
-    "task": ["assistant"]
+    "task": [
+      "assistant"
+    ]
   },
-
-    {
+  {
     "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
-    "authors": ["Babak Alipanahi et al."],
+    "authors": [
+      "Babak Alipanahi et al."
+    ],
     "venue": "Nature Biotechnology",
     "year": 2015,
     "url": "https://www.nature.com/articles/nbt.3300",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["genomics"],
-    "modality": ["sequence"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "sequence"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
-
-    {
+  {
     "title": "Predicting effects of noncoding variants with deep learning–based sequence model",
-    "authors": ["Jian Zhou et al."],
+    "authors": [
+      "Jian Zhou et al."
+    ],
     "venue": "Nature Methods",
     "year": 2015,
     "url": "https://www.nature.com/articles/nmeth.3547",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["genomics"],
-    "modality": ["sequence"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "sequence"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
-
-    {
+  {
     "title": "The Nucleotide Transformer: modeling genomics at scale",
-    "authors": ["Chaitanya Joshi et al."],
+    "authors": [
+      "Chaitanya Joshi et al."
+    ],
     "venue": "Nature Methods",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41592-024-02523-z",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["genomics"],
-    "modality": ["sequence"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "sequence"
+    ],
     "system": [],
-    "task": ["representation_learning"]
+    "task": [
+      "representation_learning"
+    ]
   },
-    {
+  {
     "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
-    "authors": ["Ziming Lin et al."],
+    "authors": [
+      "Ziming Lin et al."
+    ],
     "venue": "Science",
     "year": 2023,
     "url": "https://www.science.org/doi/10.1126/science.ade2574",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["proteins"],
-    "modality": ["sequence"],
+    "domain": [
+      "proteins"
+    ],
+    "modality": [
+      "sequence"
+    ],
     "system": [],
-    "task": ["structure_prediction"]
+    "task": [
+      "structure_prediction"
+    ]
   },
-    {
+  {
     "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
-    "authors": ["C. Bunne et al."],
+    "authors": [
+      "C. Bunne et al."
+    ],
     "venue": "Cell",
     "year": 2024,
     "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
     "code": "",
     "abstract": "",
-    "type": ["perspective"],
-    "domain": ["cell_biology"],
-    "modality": ["multimodal"],
+    "type": [
+      "perspective"
+    ],
+    "domain": [
+      "cell_biology"
+    ],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
     "task": []
   },
-    {
+  {
     "title": "Empowering biomedical discovery with AI agents",
-    "authors": ["Shanghua Gao et al."],
+    "authors": [
+      "Shanghua Gao et al."
+    ],
     "venue": "Cell",
     "year": 2024,
     "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5",
     "code": "",
     "abstract": "",
-    "type": ["review"],
-    "domain": ["agentic"],
-    "modality": ["multimodal"],
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "agentic"
+    ],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
     "task": []
   },
-    {
+  {
     "title": "Highly accurate protein structure prediction with AlphaFold",
-    "authors": ["John Jumper et al."],
+    "authors": [
+      "John Jumper et al."
+    ],
     "venue": "Nature",
     "year": 2021,
     "url": "https://www.nature.com/articles/s41586-021-03819-2",
     "code": "",
     "abstract": "",
     "type": [],
-    "domain": ["genomics"],
-    "modality": ["sequence"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "sequence"
+    ],
     "system": [],
-    "task": ["structure_prediction"]
+    "task": [
+      "structure_prediction"
+    ]
   },
   {
-  "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
-  "authors": ["First Author et al."],
-  "venue": "",
-  "year": 2025,
-  "url": "",
-  "code": "",
-  "abstract": "",
-  "type": ["article"],
-  "domain": ["agentic"],
-  "modality": ["protein"],
-  "system": ["agents"],
-  "task": ["design", "generation", "drug_discovery"]
-},
-    {
+    "title": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies",
+    "authors": [
+      "First Author et al."
+    ],
+    "venue": "",
+    "year": 2025,
+    "url": "",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "agentic"
+    ],
+    "modality": [
+      "protein"
+    ],
+    "system": [
+      "agents"
+    ],
+    "task": [
+      "design",
+      "generation",
+      "drug_discovery"
+    ]
+  },
+  {
     "title": "A large language model–based foundation model for edible plant genomes",
-    "authors": ["Javier Mendoza-Revilla et al."],
+    "authors": [
+      "Javier Mendoza-Revilla et al."
+    ],
     "venue": "Communications Biology",
     "date": "2024-07-09",
     "year": 2024,
     "url": "https://www.nature.com/articles/s42003-024-06465-2",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["plant"],
-    "modality": ["dna"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "plant"
+    ],
+    "modality": [
+      "dna"
+    ],
     "system": [],
-    "task": ["prediction"]
+    "task": [
+      "prediction"
+    ]
   },
-    {
+  {
     "title": "Foundation models in plant molecular biology: current landscape and future directions",
-    "authors": ["Feng Xu et al."],
+    "authors": [
+      "Feng Xu et al."
+    ],
     "venue": "Frontiers in Plant Science",
     "date": "2025-06-03",
     "year": 2025,
     "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
     "code": "",
     "abstract": "",
-    "type": ["review"],
-    "domain": ["review"],
-    "modality": ["rna","dna"],
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "review"
+    ],
+    "modality": [
+      "rna",
+      "dna"
+    ],
     "system": [],
     "task": []
   },
-    {
+  {
     "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
-    "authors": ["Zhizheng Wang et al."],
+    "authors": [
+      "Zhizheng Wang et al."
+    ],
     "venue": "Nature Methods",
     "date": "2025-07-28",
     "year": 2025,
     "url": "https://www.nature.com/articles/s41592-025-02748-6",
     "code": "",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["agentic"],
-    "modality": ["text"],
-    "system": ["agent-based"],
-    "task": ["analysis"]
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "agentic"
+    ],
+    "modality": [
+      "text"
+    ],
+    "system": [
+      "agent-based"
+    ],
+    "task": [
+      "analysis"
+    ]
   },
-    {
+  {
     "title": "Generative AI for designing and validating easily synthesizable and structurally novel antibiotics",
-    "authors": ["Kyle Swanson et al."],
+    "authors": [
+      "Kyle Swanson et al."
+    ],
     "venue": "Nature Machine Intelligence",
     "date": "2024-03-22",
     "year": 2024,
     "url": "https://www.nature.com/articles/s42256-024-00809-7",
     "code": "https://github.com/swansonk14/SyntheMol",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
     "modality": [],
     "system": [],
-    "task": ["generation"]
+    "task": [
+      "generation"
+    ]
   },
-    {
+  {
     "title": "A pathologist–AI collaboration framework for enhancing diagnostic accuracies and efficiencies",
-    "authors": ["Zhi Huang et al."],
+    "authors": [
+      "Zhi Huang et al."
+    ],
     "venue": "Nature Biomedical Engineering",
     "date": "2024-06-19",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41551-024-01223-5",
     "code": "https://huangzhii.github.io/nuclei-HAI",
     "abstract": "",
-    "type": ["article"],
-    "domain": ["medicine"],
-    "modality": ["imaging"],
-    "system": ["human-in-the-loop"],
-    "task": ["classification"]
+    "type": [
+      "article"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [
+      "imaging"
+    ],
+    "system": [
+      "human-in-the-loop"
+    ],
+    "task": [
+      "classification"
+    ]
   },
   {
     "title": "Simple and effective embedding model for single-cell biology built from ChatGPT",
-    "authors": ["Yiqun Chen et al."],
+    "authors": [
+      "Yiqun Chen et al."
+    ],
     "venue": "Nature Biomedical Engineering",
     "date": "2024-12-06",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41551-024-01284-6",
     "code": "https://github.com/yiqunchen/GenePT",
     "abstract": "",
-    "type": ["original-article"],
-    "domain": ["genomics"],
-    "modality": ["single-cell","text"],
+    "type": [
+      "original-article"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "single-cell",
+      "text"
+    ],
     "system": [],
-    "task": ["embedding","prediction"]
+    "task": [
+      "embedding",
+      "prediction"
+    ]
+  },
+  {
+    "title": "An interpretable RNA foundation model for exploring functional RNA motifs in plants",
+    "authors": [
+      "Haopeng Yu",
+      "Heng Yang",
+      "Wenqing Sun",
+      "Zongyun Yan",
+      "Xiaofei Yang",
+      "Huakun Zhang",
+      "Yiliang Ding",
+      "Ke Li"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2024-12-09",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s42256-024-00946-z",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "plant"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
-  
 ]
-
-
