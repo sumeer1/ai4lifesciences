@@ -74,7 +74,7 @@ jobs:
           DOMAINS:   ${{ steps.parse.outputs.domains }}
           MODALITY:  ${{ steps.parse.outputs.modality }}
           TASK:      ${{ steps.parse.outputs.task }}
-          FIXED_YEAR:${{ steps.parse.outputs.year }}
+          FIXED_YEAR: ${{ steps.parse.outputs.year }}
         run: |
           python - <<'PY'
           import os, re, json, pathlib, requests, feedparser
