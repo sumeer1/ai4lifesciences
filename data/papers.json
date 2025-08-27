@@ -639,5 +639,30 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
+    "authors": [
+      "Johannes Linder",
+      "Divyanshi Srivastava",
+      "Han Yuan",
+      "Vikram Agarwal",
+      "David R. Kelley"
+    ],
+    "venue": "Nature Genetics",
+    "date": "2025-01-08",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41588-024-02053-6",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
