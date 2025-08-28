@@ -538,25 +538,28 @@
   {
     "title": "Generative AI for designing and validating easily synthesizable and structurally novel antibiotics",
     "authors": [
-      "Kyle Swanson et al."
+      "Kyle Swanson",
+      "Gary Liu",
+      "Denise B. Catacutan",
+      "Autumn Arnold",
+      "James Zou",
+      "Jonathan M. Stokes"
     ],
     "venue": "Nature Machine Intelligence",
     "date": "2024-03-22",
     "year": 2024,
     "url": "https://www.nature.com/articles/s42256-024-00809-7",
-    "code": "https://github.com/swansonk14/SyntheMol",
+    "code": "",
     "abstract": "",
     "type": [
-      "article"
+      "original"
     ],
     "domain": [
       "medicine"
     ],
     "modality": [],
     "system": [],
-    "task": [
-      "generation"
-    ]
+    "task": []
   },
   {
     "title": "A pathologist–AI collaboration framework for enhancing diagnostic accuracies and efficiencies",
