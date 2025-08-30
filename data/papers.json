@@ -1833,5 +1833,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "authors": [
+      "Josh Abramson",
+      "Jonas Adler",
+      "Jack Dunger",
+      "Richard Evans",
+      "Tim Green",
+      "Alexander Pritzel",
+      "Olaf Ronneberger",
+      "Lindsay Willmore",
+      "Andrew J. Ballard",
+      "Joshua Bambrick",
+      "et al."
+    ],
+    "venue": "Nature",
+    "date": "2024-05-08",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
