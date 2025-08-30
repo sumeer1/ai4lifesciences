@@ -1009,5 +1009,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Towards a general-purpose foundation model for computational pathology",
+    "authors": [
+      "Richard J. Chen",
+      "Tong Ding",
+      "Ming Y. Lu",
+      "Drew F. K. Williamson",
+      "Guillaume Jaume",
+      "Andrew H. Song",
+      "Bowen Chen",
+      "Andrew Zhang",
+      "Daniel Shao",
+      "Muhammad Shaban",
+      "et al."
+    ],
+    "venue": "Nature Medicine",
+    "date": "2024-03-01",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41591-024-02857-3",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
