@@ -1066,5 +1066,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://openreview.net/forum?id=WbP2OwMULq&referrer=%5Bthe%20profile%20of%20Yueting%20Zhuang%5D(%2Fprofile%3Fid%3D~Yueting_Zhuang1)",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://openreview.net/forum?id=WbP2OwMULq&referrer=%5Bthe%20profile%20of%20Yueting%20Zhuang%5D(%2Fprofile%3Fid%3D~Yueting_Zhuang1)",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
