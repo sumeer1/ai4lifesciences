@@ -1610,5 +1610,32 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+    "authors": [
+      "P. Gainza",
+      "F. Sverrisson",
+      "F. Monti",
+      "E. Rodolà",
+      "D. Boscaini",
+      "M. M. Bronstein",
+      "B. E. Correia"
+    ],
+    "venue": "Nature Methods",
+    "date": "2019-12-09",
+    "year": 2019,
+    "url": "https://www.nature.com/articles/s41592-019-0666-6",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
