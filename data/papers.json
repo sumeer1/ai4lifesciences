@@ -689,7 +689,10 @@
   },
   {
     "title": "Large-scale foundation models and generative AI for BigData neuroscience",
-    "authors": ["Ran Wang", "Zhe Sage Chen"],
+    "authors": [
+      "Ran Wang",
+      "Zhe Sage Chen"
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -706,7 +709,9 @@
   },
   {
     "title": "Scientific Large Language Models: A Survey on Biological & Chemical Domains",
-    "authors": ["Qiang Zhang et al."],
+    "authors": [
+      "Qiang Zhang et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -734,6 +739,31 @@
     "abstract": "",
     "type": [
       "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+  {
+    "title": "Foundation models for generalist medical artificial intelligence",
+    "authors": [
+      "Michael Moor",
+      "Oishi Banerjee",
+      "Zahra Shakeri Hossein Abad",
+      "Harlan M. Krumholz",
+      "Jure Leskovec",
+      "Eric J. Topol",
+      "Pranav Rajpurkar"
+    ],
+    "venue": "Nature",
+    "date": "2023-04-12",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41586-023-05881-4",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "perspective"
     ],
     "domain": [],
     "modality": [],
