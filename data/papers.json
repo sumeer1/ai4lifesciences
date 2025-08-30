@@ -808,5 +808,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Accurate RNA 3D structure prediction using a language model-based deep learning approach",
+    "authors": [
+      "Tao Shen",
+      "Zhihang Hu",
+      "Siqi Sun",
+      "Di Liu",
+      "Felix Wong",
+      "Jiuming Wang",
+      "Jiayang Chen",
+      "Yixuan Wang",
+      "Liang Hong",
+      "Jin Xiao",
+      "et al."
+    ],
+    "venue": "Nature Methods",
+    "date": "2024-11-21",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41592-024-02487-0",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
