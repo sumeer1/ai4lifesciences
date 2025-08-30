@@ -1637,5 +1637,29 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Human-level recognition of blast cells in acute myeloid leukaemia with convolutional neural networks",
+    "authors": [
+      "Christian Matek",
+      "Simone Schwarz",
+      "Karsten Spiekermann",
+      "Carsten Marr"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2019-11-12",
+    "year": 2019,
+    "url": "https://www.nature.com/articles/s42256-019-0101-9",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
