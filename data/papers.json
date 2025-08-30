@@ -1541,5 +1541,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Self-supervised retinal thickness prediction enables deep learning from unlabelled data to boost classification of diabetic retinopathy",
+    "authors": [
+      "Olle G. Holmberg",
+      "Niklas D. Köhler",
+      "Thiago Martins",
+      "Jakob Siedlecki",
+      "Tina Herold",
+      "Leonie Keidel",
+      "Ben Asani",
+      "Johannes Schiefelbein",
+      "Siegfried Priglinger",
+      "Karsten U. Kortuem",
+      "et al."
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2020-11-09",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s42256-020-00247-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
