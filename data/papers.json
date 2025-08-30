@@ -483,26 +483,19 @@
     ]
   },
   {
-    "title": "Foundation models in plant molecular biology: current landscape and future directions",
-    "authors": [
-      "Feng Xu et al."
-    ],
-    "venue": "Frontiers in Plant Science",
-    "date": "2025-06-03",
-    "year": 2025,
+    "title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
     "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
     "code": "",
     "abstract": "",
     "type": [
       "review"
     ],
-    "domain": [
-      "review"
-    ],
-    "modality": [
-      "rna",
-      "dna"
-    ],
+    "domain": [],
+    "modality": [],
     "system": [],
     "task": []
   },
