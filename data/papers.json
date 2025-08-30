@@ -1780,5 +1780,27 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Shifting machine learning for healthcare from development to deployment and from models to data",
+    "authors": [
+      "Angela Zhang",
+      "Lei Xing",
+      "James Zou",
+      "Joseph C. Wu"
+    ],
+    "venue": "Nature Biomedical Engineering",
+    "date": "2022-07-04",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41551-022-00898-y",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
