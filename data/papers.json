@@ -667,5 +667,29 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Foundation Models for Environmental Science: A Survey of Emerging\n  Frontiers",
+    "authors": [
+      "Runlong Yu",
+      "Shengyu Chen",
+      "Yiqun Xie",
+      "Huaxiu Yao",
+      "Jared Willard",
+      "Xiaowei Jia"
+    ],
+    "venue": "arXiv",
+    "date": "2025-04-05",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.04280",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
