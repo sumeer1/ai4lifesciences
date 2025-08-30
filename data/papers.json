@@ -1510,5 +1510,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Identifying facial phenotypes of genetic disorders using deep learning",
+    "authors": [
+      "Yaron Gurovich",
+      "Yair Hanani",
+      "Omri Bar",
+      "Guy Nadav",
+      "Nicole Fleischer",
+      "Dekel Gelbman",
+      "Lina Basel-Salmon",
+      "Peter M. Krawitz",
+      "Susanne B. Kamphausen",
+      "Martin Zenker",
+      "et al."
+    ],
+    "venue": "Nature Medicine",
+    "date": "2019-01-01",
+    "year": 2019,
+    "url": "https://www.nature.com/articles/s41591-018-0279-0",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
