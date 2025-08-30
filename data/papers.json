@@ -716,5 +716,22 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://www.sciencedirect.com/science/article/pii/S0168010224000750",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0168010224000750",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
