@@ -1245,22 +1245,21 @@
     ]
   },
   {
-    "title": "https://www.sciencedirect.com/science/article/pii/S1574954124000876",
+    "title": "Foundation models in shaping the future of ecology",
     "authors": [],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2024,
     "url": "https://www.sciencedirect.com/science/article/pii/S1574954124000876",
     "code": "",
     "abstract": "",
     "type": [
-      "review"
     ],
     "domain": [
       "climate"
     ],
-    "modality": [],
+    "modality": ["multimodal"],
     "system": [],
-    "task": []
+    "task": ["review"]
   }
 ]
