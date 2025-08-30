@@ -1802,5 +1802,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Graph deep learning for the characterization of tumour microenvironments from spatial protein profiles in tissue specimens",
+    "authors": [
+      "Zhenqin Wu",
+      "Alexandro E. Trevino",
+      "Eric Wu",
+      "Kyle Swanson",
+      "Honesty J. Kim",
+      "H. Blaize D’Angio",
+      "Ryan Preska",
+      "Gregory W. Charville",
+      "Piero D. Dalerba",
+      "Ann Marie Egloff",
+      "et al."
+    ],
+    "venue": "Nature Biomedical Engineering",
+    "date": "2022-11-10",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41551-022-00951-w",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
