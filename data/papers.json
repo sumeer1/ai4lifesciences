@@ -1040,5 +1040,31 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "LLM-based agentic systems in medicine and healthcare",
+    "authors": [
+      "Jianing Qiu",
+      "Kyle Lam",
+      "Guohao Li",
+      "Amish Acharya",
+      "Tien Yin Wong",
+      "Ara Darzi",
+      "Wu Yuan",
+      "Eric J. Topol"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2024-12-05",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s42256-024-00944-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "perspective"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
