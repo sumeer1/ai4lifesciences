@@ -373,7 +373,9 @@
   },
   {
     "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
-    "authors": ["Charlotte Bunne et al."],
+    "authors": [
+      "Charlotte Bunne et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2024,
@@ -837,7 +839,9 @@
   },
   {
     "title": "Empowering biomedical discovery with AI agents",
-    "authors": ["Shanghua Gao et al."],
+    "authors": [
+      "Shanghua Gao et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2024,
@@ -911,7 +915,10 @@
   },
   {
     "title": "The future of pharmaceuticals: Artificial intelligence in drug discovery and development",
-    "authors": ["Chen Fu", "Qiuchen Chen "],
+    "authors": [
+      "Chen Fu",
+      "Qiuchen Chen "
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -945,6 +952,32 @@
       "original"
     ],
     "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+  {
+    "title": "Segment anything in medical images",
+    "authors": [
+      "Jun Ma",
+      "Yuting He",
+      "Feifei Li",
+      "Lin Han",
+      "Chenyu You",
+      "Bo Wang"
+    ],
+    "venue": "Nature Communications",
+    "date": "2024-01-22",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41467-024-44824-z",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
     "modality": [],
     "system": [],
     "task": []
