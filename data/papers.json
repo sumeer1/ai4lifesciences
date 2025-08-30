@@ -1729,5 +1729,31 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Evaluating generalizability of artificial intelligence models for molecular datasets",
+    "authors": [
+      "Yasha Ektefaie",
+      "Andrew Shen",
+      "Daria Bykova",
+      "Maximillian G. Marin",
+      "Marinka Zitnik",
+      "Maha Farhat"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2024-12-06",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s42256-024-00931-6",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
