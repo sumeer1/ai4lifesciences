@@ -1267,7 +1267,9 @@
   },
   {
     "title": "A Foundation Model for Accurate Atomistic Simulations in Drug Design",
-    "authors": ["Thomas Plé et al. "],
+    "authors": [
+      "Thomas Plé et al. "
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -1282,7 +1284,9 @@
     ],
     "modality": [],
     "system": [],
-    "task": ["drug_discovery"]
+    "task": [
+      "drug_discovery"
+    ]
   },
   {
     "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
@@ -1358,14 +1362,22 @@
     "type": [
       "original"
     ],
-    "domain": ["genomics"],
-    "modality": ["dna"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "dna"
+    ],
     "system": [],
-    "task": ["prediction, generation, design"]
+    "task": [
+      "prediction, generation, design"
+    ]
   },
   {
     "title": "Genome modeling and design across all domains of life with Evo 2",
-    "authors": ["Garyk Brixi et al."],
+    "authors": [
+      "Garyk Brixi et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -1375,9 +1387,46 @@
     "type": [
       "original"
     ],
-    "domain": ["genomics"],
-    "modality": ["dna"],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [
+      "dna"
+    ],
     "system": [],
-    "task": ["prediction, generation, design"]
+    "task": [
+      "prediction, generation, design"
+    ]
+  },
+  {
+    "title": "A deep learning pipeline for three-dimensional brain-wide mapping of local neuronal ensembles in teravoxel light-sheet microscopy",
+    "authors": [
+      "Ahmadreza Attarpour",
+      "Jonas Osmann",
+      "Anthony Rinaldi",
+      "Tianbo Qi",
+      "Neeraj Lal",
+      "Shruti Patel",
+      "Matthew Rozak",
+      "Fengqing Yu",
+      "Newton Cho",
+      "Jordan Squair",
+      "et al."
+    ],
+    "venue": "Nature Methods",
+    "date": "2025-01-27",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41592-024-02583-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "neuroscience"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
