@@ -483,11 +483,11 @@
     ]
   },
   {
-    "title": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
-    "authors": [],
+    "title": "Foundation models in plant molecular biology: advances, challenges, and future directions",
+    "authors": ["Feng Xu et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1611992/full",
     "code": "",
     "abstract": "",
@@ -495,9 +495,9 @@
       "review"
     ],
     "domain": [],
-    "modality": [],
+    "modality": ["dna, rna, protein"],
     "system": [],
-    "task": []
+    "task": ["review"]
   },
   {
     "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
@@ -1068,11 +1068,11 @@
     "task": []
   },
   {
-    "title": "https://openreview.net/forum?id=WbP2OwMULq&referrer=%5Bthe%20profile%20of%20Yueting%20Zhuang%5D(%2Fprofile%3Fid%3D~Yueting_Zhuang1)",
-    "authors": [],
+    "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
+    "authors": ["Tianwei Lin et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://openreview.net/forum?id=WbP2OwMULq&referrer=%5Bthe%20profile%20of%20Yueting%20Zhuang%5D(%2Fprofile%3Fid%3D~Yueting_Zhuang1)",
     "code": "",
     "abstract": "",
@@ -1143,11 +1143,11 @@
     "task": []
   },
   {
-    "title": "https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2",
-    "authors": [],
+    "title": "Lab-in-the-loop therapeutic antibody design with deep learning",
+    "authors": [" Nathan C. Frey et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2",
     "code": "",
     "abstract": "",
@@ -1157,16 +1157,16 @@
     "domain": [
       "medicine"
     ],
-    "modality": [],
+    "modality": ["protein"],
     "system": [],
-    "task": []
+    "task": ["design, drug_discovery, optimization"]
   },
   {
-    "title": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v2",
-    "authors": [],
+    "title": "scBaseCount: an AI agent-curated, uniformly processed, and continually expanding single cell data repository",
+    "authors": ["Nicholas D. Youngblut et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640494v2",
     "code": "",
     "abstract": "",
@@ -1176,16 +1176,16 @@
     "domain": [
       "genomics"
     ],
-    "modality": [],
+    "modality": ["rna"],
     "system": [],
-    "task": []
+    "task": ["analysis"]
   },
   {
-    "title": "https://arxiv.org/html/2308.06668v3",
-    "authors": [],
+    "title": "Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges",
+    "authors": ["Jiajia Li et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2023,
     "url": "https://arxiv.org/html/2308.06668v3",
     "code": "",
     "abstract": "",
@@ -1200,11 +1200,11 @@
     "task": []
   },
   {
-    "title": "https://academic.oup.com/icesjms/article/80/7/1829/7236451",
-    "authors": [],
+    "title": "Machine learning in marine ecology: an overview of techniques and applications",
+    "authors": ["Peter Rubbens et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2023,
     "url": "https://academic.oup.com/icesjms/article/80/7/1829/7236451",
     "code": "",
     "abstract": "",
@@ -1214,8 +1214,8 @@
     "domain": [
       "marine"
     ],
-    "modality": [],
+    "modality": ["multimodal"],
     "system": [],
-    "task": []
+    "task": ["review"]
   }
 ]
