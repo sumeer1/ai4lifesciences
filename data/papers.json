@@ -1591,5 +1591,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://www.sciencedirect.com/science/article/pii/S0092867420301021",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0092867420301021",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
