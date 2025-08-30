@@ -778,5 +778,35 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Effective gene expression prediction from sequence by integrating long-range interactions",
+    "authors": [
+      "Žiga Avsec",
+      "Vikram Agarwal",
+      "Daniel Visentin",
+      "Joseph R. Ledsam",
+      "Agnieszka Grabska-Barwinska",
+      "Kyle R. Taylor",
+      "Yannis Assael",
+      "John Jumper",
+      "Pushmeet Kohli",
+      "David R. Kelley"
+    ],
+    "venue": "Nature Methods",
+    "date": "2021-10-01",
+    "year": 2021,
+    "url": "https://www.nature.com/articles/s41592-021-01252-x",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
