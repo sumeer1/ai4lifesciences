@@ -255,24 +255,33 @@
   {
     "title": "A multimodal generative AI copilot for human pathology",
     "authors": [
-      "Ming Y. Lu et al."
+      "Ming Y. Lu",
+      "Bowen Chen",
+      "Drew F. K. Williamson",
+      "Richard J. Chen",
+      "Melissa Zhao",
+      "Aaron K. Chow",
+      "Kenji Ikemura",
+      "Ahrong Kim",
+      "Dimitra Pouli",
+      "Ankush Patel",
+      "et al."
     ],
     "venue": "Nature",
+    "date": "2024-06-12",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41586-024-07618-3",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "multimodal"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "assistant"
-    ]
+    "task": []
   },
   {
     "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
