@@ -255,24 +255,33 @@
   {
     "title": "A multimodal generative AI copilot for human pathology",
     "authors": [
-      "Ming Y. Lu et al."
+      "Ming Y. Lu",
+      "Bowen Chen",
+      "Drew F. K. Williamson",
+      "Richard J. Chen",
+      "Melissa Zhao",
+      "Aaron K. Chow",
+      "Kenji Ikemura",
+      "Ahrong Kim",
+      "Dimitra Pouli",
+      "Ankush Patel",
+      "et al."
     ],
     "venue": "Nature",
+    "date": "2024-06-12",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41586-024-07618-3",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "multimodal"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "assistant"
-    ]
+    "task": []
   },
   {
     "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
@@ -373,7 +382,9 @@
   },
   {
     "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
-    "authors": ["Charlotte Bunne et al."],
+    "authors": [
+      "Charlotte Bunne et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2024,
@@ -837,7 +848,9 @@
   },
   {
     "title": "Empowering biomedical discovery with AI agents",
-    "authors": ["Shanghua Gao et al."],
+    "authors": [
+      "Shanghua Gao et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2024,
@@ -911,7 +924,10 @@
   },
   {
     "title": "The future of pharmaceuticals: Artificial intelligence in drug discovery and development",
-    "authors": ["Chen Fu", "Qiuchen Chen "],
+    "authors": [
+      "Chen Fu",
+      "Qiuchen Chen "
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
