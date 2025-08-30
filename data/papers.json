@@ -408,28 +408,6 @@
     "task": []
   },
   {
-    "title": "Empowering biomedical discovery with AI agents",
-    "authors": [
-      "Shanghua Gao et al."
-    ],
-    "venue": "Cell",
-    "year": 2024,
-    "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5",
-    "code": "",
-    "abstract": "",
-    "type": [
-      "review"
-    ],
-    "domain": [
-      "agentic"
-    ],
-    "modality": [
-      "multimodal"
-    ],
-    "system": [],
-    "task": []
-  },
-  {
     "title": "Highly accurate protein structure prediction with AlphaFold",
     "authors": [
       "John Jumper et al."
