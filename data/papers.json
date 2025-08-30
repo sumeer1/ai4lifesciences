@@ -1448,10 +1448,16 @@
     "type": [
       "original"
     ],
-    "domain": ["neuroscience"],
-    "modality": ["multimodal"],
+    "domain": [
+      "neuroscience"
+    ],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
-    "task": ["representation_learning, prediction, mapping"]
+    "task": [
+      "representation_learning, prediction, mapping"
+    ]
   },
   {
     "title": "A deep learning system for differential diagnosis of skin diseases",
@@ -1575,7 +1581,9 @@
   },
   {
     "title": "Predicting Splicing from Primary Sequence with Deep Learning",
-    "authors": ["Kishore Jaganathan et al."],
+    "authors": [
+      "Kishore Jaganathan et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2019,
@@ -1588,13 +1596,19 @@
     "domain": [
       "genomics"
     ],
-    "modality": ["rna"],
+    "modality": [
+      "rna"
+    ],
     "system": [],
-    "task": ["prediction, variant_effect, analysis"]
+    "task": [
+      "prediction, variant_effect, analysis"
+    ]
   },
   {
     "title": "A Deep Learning Approach to Antibiotic Discovery",
-    "authors": ["Jonathan M. Stokes et al."],
+    "authors": [
+      "Jonathan M. Stokes et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2020,
@@ -1609,7 +1623,9 @@
     ],
     "modality": [],
     "system": [],
-    "task": ["prediction, drug_discovery"]
+    "task": [
+      "prediction, drug_discovery"
+    ]
   },
   {
     "title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
@@ -1681,8 +1697,37 @@
     "domain": [
       "genomics"
     ],
-    "modality": ["dna"],
+    "modality": [
+      "dna"
+    ],
     "system": [],
-    "task": ["structure prediction"]
+    "task": [
+      "structure prediction"
+    ]
+  },
+  {
+    "title": "Unified rational protein engineering with sequence-based deep representation learning",
+    "authors": [
+      "Ethan C. Alley",
+      "Grigory Khimulya",
+      "Surojit Biswas",
+      "Mohammed AlQuraishi",
+      "George M. Church"
+    ],
+    "venue": "Nature Methods",
+    "date": "2019-10-21",
+    "year": 2019,
+    "url": "https://www.nature.com/articles/s41592-019-0598-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
