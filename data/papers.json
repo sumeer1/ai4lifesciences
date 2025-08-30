@@ -851,5 +851,35 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+    "authors": [
+      "Samuel Schmidgall",
+      "Yusheng Su",
+      "Ze Wang",
+      "Ximeng Sun",
+      "Jialian Wu",
+      "Xiaodong Yu",
+      "Jiang Liu",
+      "Michael Moor",
+      "Zicheng Liu",
+      "Emad Barsoum"
+    ],
+    "venue": "arXiv",
+    "date": "2025-01-08",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.04227",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "agentic"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
