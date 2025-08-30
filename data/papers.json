@@ -1452,5 +1452,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "A deep learning system for differential diagnosis of skin diseases",
+    "authors": [
+      "Yuan Liu",
+      "Ayush Jain",
+      "Clara Eng",
+      "David H. Way",
+      "Kang Lee",
+      "Peggy Bui",
+      "Kimberly Kanada",
+      "Guilherme de Oliveira Marinho",
+      "Jessica Gallegos",
+      "Sara Gabriele",
+      "et al."
+    ],
+    "venue": "Nature Medicine",
+    "date": "2020-05-18",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41591-020-0842-3",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
