@@ -1085,5 +1085,32 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical\n  LLM Agents",
+    "authors": [
+      "Yixing Jiang",
+      "Kameron C. Black",
+      "Gloria Geng",
+      "Danny Park",
+      "James Zou",
+      "Andrew Y. Ng",
+      "Jonathan H. Chen"
+    ],
+    "venue": "arXiv",
+    "date": "2025-01-24",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.14654",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "agentic"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
