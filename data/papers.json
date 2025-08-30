@@ -1266,11 +1266,11 @@
     ]
   },
   {
-    "title": "https://chemrxiv.org/engage/chemrxiv/article-details/6814f81f927d1c2e66badeea",
-    "authors": [],
+    "title": "A Foundation Model for Accurate Atomistic Simulations in Drug Design",
+    "authors": ["Thomas Plé et al. "],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://chemrxiv.org/engage/chemrxiv/article-details/6814f81f927d1c2e66badeea",
     "code": "",
     "abstract": "",
@@ -1282,7 +1282,7 @@
     ],
     "modality": [],
     "system": [],
-    "task": []
+    "task": ["drug_discovery"]
   },
   {
     "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
@@ -1358,26 +1358,26 @@
     "type": [
       "original"
     ],
-    "domain": [],
-    "modality": [],
+    "domain": ["genomics"],
+    "modality": ["dna"],
     "system": [],
-    "task": []
+    "task": ["prediction, generation, design"]
   },
   {
-    "title": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918v1",
-    "authors": [],
+    "title": "Genome modeling and design across all domains of life with Evo 2",
+    "authors": ["Garyk Brixi et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638918v1",
     "code": "",
     "abstract": "",
     "type": [
       "original"
     ],
-    "domain": [],
-    "modality": [],
+    "domain": ["genomics"],
+    "modality": ["dna"],
     "system": [],
-    "task": []
+    "task": ["prediction, generation, design"]
   }
 ]
