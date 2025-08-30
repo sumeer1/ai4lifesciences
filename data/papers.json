@@ -1314,5 +1314,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "AI-enabled drug discovery reaches clinical milestone",
+    "authors": [
+      "Marinka Zitnik"
+    ],
+    "venue": "Nature Medicine",
+    "date": "2025-07-01",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41591-025-03832-2",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "perspective"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
