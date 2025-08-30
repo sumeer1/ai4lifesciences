@@ -691,5 +691,30 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Brain Foundation Models: A Survey on Advancements in Neural Signal\n  Processing and Brain Discovery",
+    "authors": [
+      "Xinliang Zhou",
+      "Chenyu Liu",
+      "Zhisheng Chen",
+      "Kun Wang",
+      "Yi Ding",
+      "Ziyu Jia",
+      "Qingsong Wen"
+    ],
+    "venue": "arXiv",
+    "date": "2025-03-01",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.00580",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
