@@ -1891,5 +1891,30 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "A deep learning approach to programmable RNA switches",
+    "authors": [
+      "Nicolaas M. Angenent-Mari",
+      "Alexander S. Garruss",
+      "Luis R. Soenksen",
+      "George Church",
+      "James J. Collins"
+    ],
+    "venue": "Nature Communications",
+    "date": "2020-10-07",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41467-020-18677-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
