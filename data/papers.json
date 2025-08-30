@@ -1572,5 +1572,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://www.sciencedirect.com/science/article/pii/S0092867418316295",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0092867418316295",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
