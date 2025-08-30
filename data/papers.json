@@ -1448,10 +1448,10 @@
     "type": [
       "original"
     ],
-    "domain": [],
-    "modality": [],
+    "domain": ["neuroscience"],
+    "modality": ["multimodal"],
     "system": [],
-    "task": []
+    "task": ["representation_learning, prediction, mapping"]
   },
   {
     "title": "A deep learning system for differential diagnosis of skin diseases",
@@ -1574,11 +1574,11 @@
     "task": []
   },
   {
-    "title": "https://www.sciencedirect.com/science/article/pii/S0092867418316295",
-    "authors": [],
+    "title": "Predicting Splicing from Primary Sequence with Deep Learning",
+    "authors": ["Kishore Jaganathan et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2019,
     "url": "https://www.sciencedirect.com/science/article/pii/S0092867418316295",
     "code": "",
     "abstract": "",
@@ -1588,16 +1588,16 @@
     "domain": [
       "genomics"
     ],
-    "modality": [],
+    "modality": ["rna"],
     "system": [],
-    "task": []
+    "task": ["prediction, variant_effect, analysis"]
   },
   {
-    "title": "https://www.sciencedirect.com/science/article/pii/S0092867420301021",
-    "authors": [],
+    "title": "A Deep Learning Approach to Antibiotic Discovery",
+    "authors": ["Jonathan M. Stokes et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2020,
     "url": "https://www.sciencedirect.com/science/article/pii/S0092867420301021",
     "code": "",
     "abstract": "",
@@ -1609,7 +1609,7 @@
     ],
     "modality": [],
     "system": [],
-    "task": []
+    "task": ["prediction, drug_discovery"]
   },
   {
     "title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
@@ -1681,8 +1681,8 @@
     "domain": [
       "genomics"
     ],
-    "modality": [],
+    "modality": ["dna"],
     "system": [],
-    "task": []
+    "task": ["structure prediction"]
   }
 ]
