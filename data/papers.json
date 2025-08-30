@@ -484,7 +484,9 @@
   },
   {
     "title": "Foundation models in plant molecular biology: advances, challenges, and future directions",
-    "authors": ["Feng Xu et al."],
+    "authors": [
+      "Feng Xu et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -495,9 +497,13 @@
       "review"
     ],
     "domain": [],
-    "modality": ["dna, rna, protein"],
+    "modality": [
+      "dna, rna, protein"
+    ],
     "system": [],
-    "task": ["review"]
+    "task": [
+      "review"
+    ]
   },
   {
     "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
@@ -1069,7 +1075,9 @@
   },
   {
     "title": "HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation",
-    "authors": ["Tianwei Lin et al."],
+    "authors": [
+      "Tianwei Lin et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -1144,7 +1152,9 @@
   },
   {
     "title": "Lab-in-the-loop therapeutic antibody design with deep learning",
-    "authors": [" Nathan C. Frey et al."],
+    "authors": [
+      " Nathan C. Frey et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -1157,13 +1167,19 @@
     "domain": [
       "medicine"
     ],
-    "modality": ["protein"],
+    "modality": [
+      "protein"
+    ],
     "system": [],
-    "task": ["design, drug_discovery, optimization"]
+    "task": [
+      "design, drug_discovery, optimization"
+    ]
   },
   {
     "title": "scBaseCount: an AI agent-curated, uniformly processed, and continually expanding single cell data repository",
-    "authors": ["Nicholas D. Youngblut et al."],
+    "authors": [
+      "Nicholas D. Youngblut et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -1176,21 +1192,26 @@
     "domain": [
       "genomics"
     ],
-    "modality": ["rna"],
+    "modality": [
+      "rna"
+    ],
     "system": [],
-    "task": ["analysis"]
+    "task": [
+      "analysis"
+    ]
   },
   {
     "title": "Foundation Models in Smart Agriculture: Basics, Opportunities, and Challenges",
-    "authors": ["Jiajia Li et al."],
+    "authors": [
+      "Jiajia Li et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2023,
     "url": "https://arxiv.org/html/2308.06668v3",
     "code": "",
     "abstract": "",
-    "type": [
-    ],
+    "type": [],
     "domain": [
       "plant"
     ],
@@ -1200,7 +1221,9 @@
   },
   {
     "title": "Machine learning in marine ecology: an overview of techniques and applications",
-    "authors": ["Peter Rubbens et al."],
+    "authors": [
+      "Peter Rubbens et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2023,
@@ -1213,8 +1236,31 @@
     "domain": [
       "marine"
     ],
-    "modality": ["multimodal"],
+    "modality": [
+      "multimodal"
+    ],
     "system": [],
-    "task": ["review"]
+    "task": [
+      "review"
+    ]
+  },
+  {
+    "title": "https://www.sciencedirect.com/science/article/pii/S1574954124000876",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1574954124000876",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "climate"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
