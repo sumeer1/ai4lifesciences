@@ -1112,5 +1112,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Advancing Multimodal Medical Capabilities of Gemini",
+    "authors": [
+      "Lin Yang",
+      "Shawn Xu",
+      "Andrew Sellergren",
+      "Timo Kohlberger",
+      "Yuchen Zhou",
+      "Ira Ktena",
+      "Atilla Kiraly",
+      "Faruk Ahmed",
+      "Farhad Hormozdiari",
+      "Tiam Jaroensri",
+      "et al."
+    ],
+    "venue": "arXiv",
+    "date": "2024-05-06",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.03162",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
