@@ -757,5 +757,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Current progress and open challenges for applying deep learning across the biosciences",
+    "authors": [
+      "Nicolae Sapoval",
+      "Amirali Aghazadeh",
+      "Michael G. Nute",
+      "Dinler A. Antunes",
+      "Advait Balaji",
+      "Richard Baraniuk",
+      "C. J. Barberan",
+      "Ruth Dannenfelser",
+      "Chen Dun",
+      "Mohammadamin Edrisi",
+      "et al."
+    ],
+    "venue": "Nature Communications",
+    "date": "2022-04-01",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41467-022-29268-7",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
