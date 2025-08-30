@@ -925,5 +925,28 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "A visual–language foundation model for pathology image analysis using medical Twitter",
+    "authors": [
+      "Zhi Huang",
+      "Federico Bianchi",
+      "Mert Yuksekgonul",
+      "Thomas J. Montine",
+      "James Zou"
+    ],
+    "venue": "Nature Medicine",
+    "date": "2023-08-17",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41591-023-02504-3",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
