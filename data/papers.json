@@ -1755,5 +1755,30 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Advances, challenges and opportunities in creating data for trustworthy AI",
+    "authors": [
+      "Weixin Liang",
+      "Girmaw Abebe Tadesse",
+      "Daniel Ho",
+      "L. Fei-Fei",
+      "Matei Zaharia",
+      "Ce Zhang",
+      "James Zou"
+    ],
+    "venue": "Nature Machine Intelligence",
+    "date": "2022-08-17",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s42256-022-00516-1",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "perspective"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
