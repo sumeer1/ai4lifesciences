@@ -233,24 +233,32 @@
   {
     "title": "A foundation model for clinician-centered drug repurposing",
     "authors": [
-      "Kexin Huang et al."
+      "Kexin Huang",
+      "Payal Chandak",
+      "Qianwen Wang",
+      "Shreyas Havaldar",
+      "Akhil Vaid",
+      "Jure Leskovec",
+      "Girish N. Nadkarni",
+      "Benjamin S. Glicksberg",
+      "Nils Gehlenborg",
+      "Marinka Zitnik"
     ],
     "venue": "Nature Medicine",
+    "date": "2024-09-25",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03233-x",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "knowledge_graph"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "drug_repurposing"
-    ]
+    "task": []
   },
   {
     "title": "A multimodal generative AI copilot for human pathology",
