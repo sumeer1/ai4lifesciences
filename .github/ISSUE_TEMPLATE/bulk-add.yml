@@ -1,0 +1,18 @@
+name: Bulk add papers
+description: Paste many paper URLs (one per line). You can add inline tags per URL.
+title: "Bulk add papers"
+labels: ["add-paper","bulk"]
+body:
+  - type: textarea
+    id: urls
+    attributes:
+      label: Paper URLs (one per line)
+      description: |
+        You can add inline tags after each URL, e.g.:
+          https://www.nature.com/articles/xxxx #type:review #domain:genomics,medicine #modality:imaging #task:prediction #year:2024
+          https://arxiv.org/abs/2501.01234       #domain:agentic #type:original
+      placeholder: |
+        https://...
+        https://... #type:review #domain:medicine
+    validations:
+      required: true
