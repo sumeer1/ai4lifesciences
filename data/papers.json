@@ -1916,5 +1916,35 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Artificial intelligence foundation for therapeutic science",
+    "authors": [
+      "Kexin Huang",
+      "Tianfan Fu",
+      "Wenhao Gao",
+      "Yue Zhao",
+      "Yusuf Roohani",
+      "Jure Leskovec",
+      "Connor W. Coley",
+      "Cao Xiao",
+      "Jimeng Sun",
+      "Marinka Zitnik"
+    ],
+    "venue": "Nature Chemical Biology",
+    "date": "2022-09-21",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41589-022-01131-2",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "perspective"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
