@@ -1428,5 +1428,29 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Krakencoder: a unified brain connectome translation and fusion tool",
+    "authors": [
+      "Keith W. Jamison",
+      "Zijin Gu",
+      "Qinxin Wang",
+      "Ceren Tozlu",
+      "Mert R. Sabuncu",
+      "Amy Kuceyeski"
+    ],
+    "venue": "Nature Methods",
+    "date": "2025-06-05",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41592-025-02706-2",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
