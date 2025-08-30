@@ -978,5 +978,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "A vision–language foundation model for precision oncology",
+    "authors": [
+      "Jinxi Xiang",
+      "Xiyue Wang",
+      "Xiaoming Zhang",
+      "Yinghua Xi",
+      "Feyisope Eweje",
+      "Yijiang Chen",
+      "Yuchen Li",
+      "Colin Bergstrom",
+      "Matthew Gopaulchan",
+      "Ted Kim",
+      "et al."
+    ],
+    "venue": "Nature",
+    "date": "2025-01-08",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41586-024-08378-w",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
