@@ -24,24 +24,27 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const body = (context.payload.issue.body || "");
-            // 1) first URL found
-            const url = (body.match(/https?:\/\/\S+/) || [])[0] || "";
-            if (!url) core.setFailed("No URL found in issue body");
+            const body = context.payload.issue.body || "";
 
-            // 2) "Type" section (dropdown) -> first word on following line
+            // Collect all URLs in the issue body (works for single or bulk)
+            const lines = body.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+            const urlLines = lines.filter(l => /https?:\/\/\S+/.test(l));
+            if (urlLines.length === 0) core.setFailed("No URL(s) found in issue body");
+
+            // For the single-URL form we also capture the 'Type', 'Year', etc. as defaults
             function sectionValue(title){
               const re = new RegExp(`###\\s*${title}\\s*\\n+([^\\n]+)`, "i");
-              const m = body.match(re); 
+              const m  = body.match(re); 
               return (m ? m[1].trim() : "");
             }
             const type = (sectionValue("Type") || "").toLowerCase();
+            const year = (sectionValue("Year").match(/\d{4}/) || [])[0] || "";
 
-            // 3) Domains are checkboxes like "- [x] genomics"
+            // Domains from checkboxes (single form)
             const domains = [...body.matchAll(/- \[x\]\s+([A-Za-z0-9_-]+)/g)]
               .map(m => m[1].toLowerCase());
 
-            // 4) Free text comma lists
+            // Free text lists (single form)
             function csv(title){
               const v = sectionValue(title).toLowerCase();
               return v ? v.split(/[;,]/).map(s => s.trim()).filter(Boolean) : [];
@@ -49,109 +52,106 @@ jobs:
             const modality = csv("Modality tags");
             const task     = csv("Task tags");
 
-            // 5) Optional year
-            const year = (sectionValue("Year").match(/\d{4}/) || [])[0] || "";
-
-            core.setOutput("url", url);
-            core.setOutput("type", type);
-            core.setOutput("domains", JSON.stringify(domains));
-            core.setOutput("modality", JSON.stringify(modality));
-            core.setOutput("task", JSON.stringify(task));
-            core.setOutput("year", year);
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install Python deps
-        run: pip install requests feedparser
+            core.setOutput("urlLines", JSON.stringify(urlLines));
+            core.setOutput("defaults", JSON.stringify({type, year, domains, modality, task}));
 
       - name: Append/update data/papers.json
         env:
-          URL:       ${{ steps.parse.outputs.url }}
-          TYPE:      ${{ steps.parse.outputs.type }}
-          DOMAINS:   ${{ steps.parse.outputs.domains }}
-          MODALITY:  ${{ steps.parse.outputs.modality }}
-          TASK:      ${{ steps.parse.outputs.task }}
-          FIXED_YEAR: ${{ steps.parse.outputs.year }}
+          URL_LINES:  ${{ steps.parse.outputs.urlLines }}
+          DEFAULTS:   ${{ steps.parse.outputs.defaults }}
         run: |
           python - <<'PY'
-          import os, re, json, pathlib, requests, feedparser
+          import os, re, json, pathlib, requests, feedparser, time
 
-          url       = os.environ["URL"]
-          type_val  = os.environ.get("TYPE","").strip()
-          domains   = json.loads(os.environ.get("DOMAINS","[]"))
-          modality  = json.loads(os.environ.get("MODALITY","[]"))
-          task      = json.loads(os.environ.get("TASK","[]"))
-          fixed_year= os.environ.get("FIXED_YEAR","").strip()
+          url_lines = json.loads(os.environ["URL_LINES"])
+          defaults  = json.loads(os.environ["DEFAULTS"])
 
           data_path = pathlib.Path("data/papers.json")
           data_path.parent.mkdir(parents=True, exist_ok=True)
-          if data_path.exists():
-              papers = json.loads(data_path.read_text(encoding="utf-8"))
-          else:
-              papers = []
+          papers = json.loads(data_path.read_text(encoding="utf-8")) if data_path.exists() else []
 
           # -------- helpers --------
-          def doi_from_nature(u):
-              m=re.search(r"/articles/([^/?#]+)", u)
-              return f"10.1038/{m.group(1)}" if m else None
+          def parse_inline_tags(line):
+            tags={}
+            for key in ["type","domain","modality","task","year"]:
+              m=re.search(rf"#\s*{key}\s*:\s*([^\s#]+)", line, flags=re.I)
+              if not m: continue
+              val=m.group(1)
+              if key in ["domain","modality","task"]:
+                tags[key]=[v for v in re.split(r"[;,]", val) if v]
+              elif key=="year":
+                try: tags[key]=int(val)
+                except: pass
+              else:
+                tags[key]=[val.lower()]
+            return tags
 
+          def doi_from_nature(u):
+            m=re.search(r"/articles/([^/?#]+)", u)
+            return f"10.1038/{m.group(1)}" if m else None
           def doi_from_host(u, host):
-              if "ai.nejm.org" in host or "nejm.org" in host or "acpjournals.org" in host \
-                 or "pnas.org" in host or "science.org" in host or "doi.org" in host:
-                  m=re.search(r"(10\.\d{4,9}/[^\s#]+)", u)
-                  return m.group(1) if m else None
-              if "nature.com" in host:
-                  return doi_from_nature(u)
-              return None
+            if "nature.com" in host: return doi_from_nature(u)
+            m=re.search(r"(10\.\d{4,9}/[^\s#]+)", u)
+            return m.group(1) if m else None
 
           def crossref(doi):
-              r=requests.get(f"https://api.crossref.org/works/{doi}", timeout=25)
-              r.raise_for_status()
-              msg=r.json()["message"]
-              title=(msg.get("title") or [""])[0]
-              authors=[]
-              for a in msg.get("author",[]):
-                  nm=" ".join(x for x in [a.get("given"), a.get("family")] if x)
-                  if nm: authors.append(nm)
-              container = (msg.get("container-title") or [None])[0] or msg.get("publisher","")
-              dp = (msg.get("issued",{}).get("date-parts") or [[None]])[0]
-              year=dp[0]
-              month=dp[1] if len(dp)>1 else 1
-              day=dp[2] if len(dp)>2 else 1
-              date=f"{year:04d}-{(month or 1):02d}-{(day or 1):02d}" if year else None
-              return {"title":title, "authors": authors[:10] + (["et al."] if len(authors)>10 else []),
-                      "venue":container, "date":date, "year":year}
+            r=requests.get(f"https://api.crossref.org/works/{doi}", timeout=25)
+            r.raise_for_status()
+            msg=r.json()["message"]
+            title=(msg.get("title") or [""])[0]
+            authors=[]
+            for a in msg.get("author",[]):
+              nm=" ".join(x for x in [a.get("given"), a.get("family")] if x)
+              if nm: authors.append(nm)
+            container=(msg.get("container-title") or [None])[0] or msg.get("publisher","")
+            dp=(msg.get("issued",{}).get("date-parts") or [[None]])[0]
+            year=dp[0]
+            month=dp[1] if len(dp)>1 else 1
+            day=dp[2] if len(dp)>2 else 1
+            date=f"{year:04d}-{(month or 1):02d}-{(day or 1):02d}" if year else None
+            return {"title":title, "authors":authors[:10]+(["et al."] if len(authors)>10 else []),
+                    "venue":container, "date":date, "year":year}
 
           def arxiv_meta(arx_id):
-              feed=feedparser.parse(f"http://export.arxiv.org/api/query?id_list={arx_id}")
-              if not feed.entries: return None
-              e=feed.entries[0]
-              dt=e.published.split("T")[0]
-              return {"title":e.title, "authors":[a.name for a in e.authors][:10] + (["et al."] if len(e.authors)>10 else []),
-                      "venue":"arXiv", "date":dt, "year":int(dt[:4])}
+            feed=feedparser.parse(f"http://export.arxiv.org/api/query?id_list={arx_id}")
+            if not feed.entries: return None
+            e=feed.entries[0]
+            dt=e.published.split("T")[0]
+            return {"title":e.title, "authors":[a.name for a in e.authors][:10]+(["et al."] if len(e.authors)>10 else []),
+                    "venue":"arXiv", "date":dt, "year":int(dt[:4])}
 
-          # -------- fetch metadata --------
-          meta={"title":url, "authors":[], "venue":"", "date":None, "year": int(fixed_year) if fixed_year else None}
-          host=re.sub(r"^https?://","",url).split("/")[0].lower()
+          def upsert(entry):
+            for i,p in enumerate(papers):
+              if p.get("url")==entry["url"]:
+                papers[i]=entry; return
+            papers.append(entry)
 
-          if "arxiv.org/abs/" in url:
+          for line in url_lines:
+            url = re.search(r"(https?://\S+)", line).group(1)
+            inline = parse_inline_tags(line)
+
+            # start with defaults (single form) then inline overrides
+            type_list = inline.get("type") or ([defaults.get("type")] if defaults.get("type") else ["original"])
+            domains   = inline.get("domain") or defaults.get("domains",[])
+            modality  = inline.get("modality") or defaults.get("modality",[])
+            task      = inline.get("task") or defaults.get("task",[])
+            year_hint = inline.get("year") or (int(defaults["year"]) if str(defaults.get("year","")).isdigit() else None)
+
+            meta={"title":url,"authors":[],"venue":"","date":None,"year":year_hint}
+            host=re.sub(r"^https?://","",url).split("/")[0].lower()
+
+            if "arxiv.org/abs/" in url:
               arx_id=url.rsplit("/",1)[-1]
               info=arxiv_meta(arx_id)
               if info: meta.update(info)
-          else:
+            else:
               doi=doi_from_host(url, host)
               if doi:
-                  try:
-                      info=crossref(doi)
-                      meta.update(info)
-                  except Exception:
-                      pass  # keep minimal meta if Crossref fails
-
-          # -------- assemble entry --------
-          entry={
+                try:
+                  info=crossref(doi); meta.update(info)
+                except Exception:
+                  pass
+            entry={
               "title": meta["title"],
               "authors": meta["authors"],
               "venue": meta["venue"],
@@ -160,26 +160,19 @@ jobs:
               "url": url,
               "code": "",
               "abstract": "",
-              "type": [type_val] if type_val else ["original"],
+              "type": type_list,
               "domain": domains,
               "modality": modality,
               "system": [],
               "task": task
-          }
-
-          # Upsert by URL
-          found=False
-          for i,p in enumerate(papers):
-              if p.get("url")==url:
-                  papers[i]=entry
-                  found=True
-                  break
-          if not found:
-              papers.append(entry)
+            }
+            upsert(entry)
+            time.sleep(0.1)  # polite
 
           data_path.write_text(json.dumps(papers, indent=2, ensure_ascii=False), encoding="utf-8")
-          print(f"Wrote {len(papers)} entries to {data_path}")
+          print(f"Wrote {len(papers)} entries")
           PY
+
 
       # Create a PR (safer). If you want direct commit to main, see comment below.
       - name: Create pull request
