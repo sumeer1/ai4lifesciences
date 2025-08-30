@@ -138,28 +138,35 @@
     "task": []
   },
   {
-    "title": "Improved clinical-grade computational pathology and detection of rare cancers via foundation models",
+    "title": "A foundation model for clinical-grade computational pathology and rare cancers detection",
     "authors": [
-      "Eugene Vorontsov et al."
+      "Eugene Vorontsov",
+      "Alican Bozkurt",
+      "Adam Casson",
+      "George Shaikovski",
+      "Michal Zelechowski",
+      "Kristen Severson",
+      "Eric Zimmermann",
+      "James Hall",
+      "Neil Tenenholtz",
+      "Nicolo Fusi",
+      "et al."
     ],
     "venue": "Nature Medicine",
+    "date": "2024-07-22",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03141-0",
     "code": "",
     "abstract": "",
     "type": [
-      "article"
+      "original"
     ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "imaging"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "classification"
-    ]
+    "task": []
   },
   {
     "title": "A visual-language foundation model for computational pathology",
