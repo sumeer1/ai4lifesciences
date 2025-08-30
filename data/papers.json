@@ -1661,5 +1661,28 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Predicting 3D genome folding from DNA sequence with Akita",
+    "authors": [
+      "Geoff Fudenberg",
+      "David R. Kelley",
+      "Katherine S. Pollard"
+    ],
+    "venue": "Nature Methods",
+    "date": "2020-10-12",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41592-020-0958-x",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
