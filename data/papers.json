@@ -363,24 +363,19 @@
     ]
   },
   {
-    "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
-    "authors": [
-      "C. Bunne et al."
-    ],
-    "venue": "Cell",
-    "year": 2024,
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
     "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
     "code": "",
     "abstract": "",
     "type": [
       "perspective"
     ],
-    "domain": [
-      "cell_biology"
-    ],
-    "modality": [
-      "multimodal"
-    ],
+    "domain": [],
+    "modality": [],
     "system": [],
     "task": []
   },
@@ -689,7 +684,10 @@
   },
   {
     "title": "Large-scale foundation models and generative AI for BigData neuroscience",
-    "authors": ["Ran Wang", "Zhe Sage Chen"],
+    "authors": [
+      "Ran Wang",
+      "Zhe Sage Chen"
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -706,7 +704,9 @@
   },
   {
     "title": "Scientific Large Language Models: A Survey on Biological & Chemical Domains",
-    "authors": ["Qiang Zhang et al."],
+    "authors": [
+      "Qiang Zhang et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
