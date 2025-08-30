@@ -1191,5 +1191,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://academic.oup.com/icesjms/article/80/7/1829/7236451",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://academic.oup.com/icesjms/article/80/7/1829/7236451",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "marine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
