@@ -233,46 +233,63 @@
   {
     "title": "A foundation model for clinician-centered drug repurposing",
     "authors": [
-      "Kexin Huang et al."
+      "Kexin Huang",
+      "Payal Chandak",
+      "Qianwen Wang",
+      "Shreyas Havaldar",
+      "Akhil Vaid",
+      "Jure Leskovec",
+      "Girish N. Nadkarni",
+      "Benjamin S. Glicksberg",
+      "Nils Gehlenborg",
+      "Marinka Zitnik"
     ],
     "venue": "Nature Medicine",
+    "date": "2024-09-25",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03233-x",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "knowledge_graph"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "drug_repurposing"
-    ]
+    "task": []
   },
   {
     "title": "A multimodal generative AI copilot for human pathology",
     "authors": [
-      "Ming Y. Lu et al."
+      "Ming Y. Lu",
+      "Bowen Chen",
+      "Drew F. K. Williamson",
+      "Richard J. Chen",
+      "Melissa Zhao",
+      "Aaron K. Chow",
+      "Kenji Ikemura",
+      "Ahrong Kim",
+      "Dimitra Pouli",
+      "Ankush Patel",
+      "et al."
     ],
     "venue": "Nature",
+    "date": "2024-06-12",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41586-024-07618-3",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "multimodal"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "assistant"
-    ]
+    "task": []
   },
   {
     "title": "Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning",
@@ -372,11 +389,13 @@
     "task": []
   },
   {
-    "title": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
-    "authors": [],
+    "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
+    "authors": [
+      "Charlotte Bunne et al."
+    ],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2024,
     "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1",
     "code": "",
     "abstract": "",
@@ -836,11 +855,13 @@
     "task": []
   },
   {
-    "title": "https://www.cell.com/cell/fulltext/S0092-8674%2824%2901070-5",
-    "authors": [],
+    "title": "Empowering biomedical discovery with AI agents",
+    "authors": [
+      "Shanghua Gao et al."
+    ],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2024,
     "url": "https://www.cell.com/cell/fulltext/S0092-8674%2824%2901070-5",
     "code": "",
     "abstract": "",
@@ -910,11 +931,14 @@
     "task": []
   },
   {
-    "title": "https://www.sciencedirect.com/science/article/pii/S2095177925000656",
-    "authors": [],
+    "title": "The future of pharmaceuticals: Artificial intelligence in drug discovery and development",
+    "authors": [
+      "Chen Fu",
+      "Qiuchen Chen "
+    ],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.sciencedirect.com/science/article/pii/S2095177925000656",
     "code": "",
     "abstract": "",
@@ -922,6 +946,55 @@
       "review"
     ],
     "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+  {
+    "title": "A visual–language foundation model for pathology image analysis using medical Twitter",
+    "authors": [
+      "Zhi Huang",
+      "Federico Bianchi",
+      "Mert Yuksekgonul",
+      "Thomas J. Montine",
+      "James Zou"
+    ],
+    "venue": "Nature Medicine",
+    "date": "2023-08-17",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41591-023-02504-3",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+  {
+    "title": "Segment anything in medical images",
+    "authors": [
+      "Jun Ma",
+      "Yuting He",
+      "Feifei Li",
+      "Lin Han",
+      "Chenyu You",
+      "Bo Wang"
+    ],
+    "venue": "Nature Communications",
+    "date": "2024-01-22",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41467-024-44824-z",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
     "modality": [],
     "system": [],
     "task": []
