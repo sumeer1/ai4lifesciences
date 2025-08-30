@@ -343,24 +343,33 @@
   {
     "title": "Evolutionary-scale prediction of atomic-level protein structure with a language model",
     "authors": [
-      "Ziming Lin et al."
+      "Zeming Lin",
+      "Halil Akin",
+      "Roshan Rao",
+      "Brian Hie",
+      "Zhongkai Zhu",
+      "Wenting Lu",
+      "Nikita Smetanin",
+      "Robert Verkuil",
+      "Ori Kabeli",
+      "Yaniv Shmueli",
+      "et al."
     ],
     "venue": "Science",
+    "date": "2023-03-17",
     "year": 2023,
     "url": "https://www.science.org/doi/10.1126/science.ade2574",
     "code": "",
     "abstract": "",
-    "type": [],
+    "type": [
+      "original"
+    ],
     "domain": [
-      "proteins"
+      "genomics"
     ],
-    "modality": [
-      "sequence"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "structure_prediction"
-    ]
+    "task": []
   },
   {
     "title": "How to build the virtual cell with artificial intelligence: Priorities and opportunities",
@@ -689,7 +698,10 @@
   },
   {
     "title": "Large-scale foundation models and generative AI for BigData neuroscience",
-    "authors": ["Ran Wang", "Zhe Sage Chen"],
+    "authors": [
+      "Ran Wang",
+      "Zhe Sage Chen"
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
@@ -706,7 +718,9 @@
   },
   {
     "title": "Scientific Large Language Models: A Survey on Biological & Chemical Domains",
-    "authors": ["Qiang Zhang et al."],
+    "authors": [
+      "Qiang Zhang et al."
+    ],
     "venue": "",
     "date": null,
     "year": 2025,
