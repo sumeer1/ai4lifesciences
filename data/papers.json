@@ -140,17 +140,7 @@
   {
     "title": "A foundation model for clinical-grade computational pathology and rare cancers detection",
     "authors": [
-      "Eugene Vorontsov",
-      "Alican Bozkurt",
-      "Adam Casson",
-      "George Shaikovski",
-      "Michal Zelechowski",
-      "Kristen Severson",
-      "Eric Zimmermann",
-      "James Hall",
-      "Neil Tenenholtz",
-      "Nicolo Fusi",
-      "et al."
+      "Eugene Vorontsov et al."
     ],
     "venue": "Nature Medicine",
     "date": "2024-07-22",
@@ -545,12 +535,7 @@
   {
     "title": "Generative AI for designing and validating easily synthesizable and structurally novel antibiotics",
     "authors": [
-      "Kyle Swanson",
-      "Gary Liu",
-      "Denise B. Catacutan",
-      "Autumn Arnold",
-      "James Zou",
-      "Jonathan M. Stokes"
+      "Kyle Swanson et al."
     ],
     "venue": "Nature Machine Intelligence",
     "date": "2024-03-22",
@@ -625,14 +610,7 @@
   {
     "title": "An interpretable RNA foundation model for exploring functional RNA motifs in plants",
     "authors": [
-      "Haopeng Yu",
-      "Heng Yang",
-      "Wenqing Sun",
-      "Zongyun Yan",
-      "Xiaofei Yang",
-      "Huakun Zhang",
-      "Yiliang Ding",
-      "Ke Li"
+      "Haopeng Yu et al."
     ],
     "venue": "Nature Machine Intelligence",
     "date": "2024-12-09",
@@ -653,11 +631,7 @@
   {
     "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
     "authors": [
-      "Johannes Linder",
-      "Divyanshi Srivastava",
-      "Han Yuan",
-      "Vikram Agarwal",
-      "David R. Kelley"
+      "Johannes Linder et al."
     ],
     "venue": "Nature Genetics",
     "date": "2025-01-08",
@@ -678,12 +652,7 @@
   {
     "title": "Foundation Models for Environmental Science: A Survey of Emerging\n  Frontiers",
     "authors": [
-      "Runlong Yu",
-      "Shengyu Chen",
-      "Yiqun Xie",
-      "Huaxiu Yao",
-      "Jared Willard",
-      "Xiaowei Jia"
+      "Runlong Yu et al."
     ],
     "venue": "arXiv",
     "date": "2025-04-05",
@@ -702,13 +671,7 @@
   {
     "title": "Brain Foundation Models: A Survey on Advancements in Neural Signal\n  Processing and Brain Discovery",
     "authors": [
-      "Xinliang Zhou",
-      "Chenyu Liu",
-      "Zhisheng Chen",
-      "Kun Wang",
-      "Yi Ding",
-      "Ziyu Jia",
-      "Qingsong Wen"
+      "Xinliang Zhou et al."
     ],
     "venue": "arXiv",
     "date": "2025-03-01",
@@ -725,11 +688,11 @@
     "task": []
   },
   {
-    "title": "https://www.sciencedirect.com/science/article/pii/S0168010224000750",
-    "authors": [],
+    "title": "Large-scale foundation models and generative AI for BigData neuroscience",
+    "authors": ["Ran Wang", "Zhe Sage Chen"],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://www.sciencedirect.com/science/article/pii/S0168010224000750",
     "code": "",
     "abstract": "",
@@ -742,11 +705,11 @@
     "task": []
   },
   {
-    "title": "https://dl.acm.org/doi/10.1145/3715318",
-    "authors": [],
+    "title": "Scientific Large Language Models: A Survey on Biological & Chemical Domains",
+    "authors": ["Qiang Zhang et al."],
     "venue": "",
     "date": null,
-    "year": null,
+    "year": 2025,
     "url": "https://dl.acm.org/doi/10.1145/3715318",
     "code": "",
     "abstract": "",
@@ -761,17 +724,7 @@
   {
     "title": "Current progress and open challenges for applying deep learning across the biosciences",
     "authors": [
-      "Nicolae Sapoval",
-      "Amirali Aghazadeh",
-      "Michael G. Nute",
-      "Dinler A. Antunes",
-      "Advait Balaji",
-      "Richard Baraniuk",
-      "C. J. Barberan",
-      "Ruth Dannenfelser",
-      "Chen Dun",
-      "Mohammadamin Edrisi",
-      "et al."
+      "Nicolae Sapoval et al."
     ],
     "venue": "Nature Communications",
     "date": "2022-04-01",
