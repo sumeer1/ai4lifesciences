@@ -1283,5 +1283,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial",
+    "authors": [
+      "Zuojun Xu",
+      "Feng Ren",
+      "Ping Wang",
+      "Jie Cao",
+      "Chunting Tan",
+      "Dedong Ma",
+      "Li Zhao",
+      "Jinghong Dai",
+      "Yipeng Ding",
+      "Haohui Fang",
+      "et al."
+    ],
+    "venue": "Nature Medicine",
+    "date": "2025-06-03",
+    "year": 2025,
+    "url": "https://www.nature.com/articles/s41591-025-03743-2",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
