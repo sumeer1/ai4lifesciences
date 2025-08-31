@@ -2468,7 +2468,9 @@
     "type": [
       "perspective"
     ],
-    "domain": [],
+    "domain": [
+      "genomics"
+    ],
     "modality": [],
     "system": [],
     "task": []
