@@ -2150,5 +2150,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "International evaluation of an AI system for breast cancer screening",
+    "authors": [
+      "Scott Mayer McKinney",
+      "Marcin Sieniek",
+      "Varun Godbole",
+      "Jonathan Godwin",
+      "Natasha Antropova",
+      "Hutan Ashrafian",
+      "Trevor Back",
+      "Mary Chesus",
+      "Greg S. Corrado",
+      "Ara Darzi",
+      "et al."
+    ],
+    "venue": "Nature",
+    "date": "2020-01-01",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41586-019-1799-6",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
