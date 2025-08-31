@@ -2264,5 +2264,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Using deep learning for dermatologist-level detection of suspicious pigmented skin lesions from wide-field images",
+    "authors": [
+      "Luis R. Soenksen",
+      "Timothy Kassis",
+      "Susan T. Conover",
+      "Berta Marti-Fuster",
+      "Judith S. Birkenfeld",
+      "Jason Tucker-Schwartz",
+      "Asif Naseem",
+      "Robert R. Stavert",
+      "Caroline C. Kim",
+      "Maryanne M. Senna",
+      "et al."
+    ],
+    "venue": "Science Translational Medicine",
+    "date": "2021-02-17",
+    "year": 2021,
+    "url": "https://www.science.org/doi/full/10.1126/scitranslmed.abb3652",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
