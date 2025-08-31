@@ -501,8 +501,7 @@
       "dna, rna, protein"
     ],
     "system": [],
-    "task": [
-    ]
+    "task": []
   },
   {
     "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
@@ -1941,6 +1940,37 @@
     ],
     "domain": [
       "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
+  },
+  {
+    "title": "Network medicine framework for identifying drug-repurposing opportunities for COVID-19",
+    "authors": [
+      "Deisy Morselli Gysi",
+      "Ítalo do Valle",
+      "Marinka Zitnik",
+      "Asher Ameli",
+      "Xiao Gan",
+      "Onur Varol",
+      "Susan Dina Ghiassian",
+      "J. J. Patten",
+      "Robert A. Davey",
+      "Joseph Loscalzo",
+      "et al."
+    ],
+    "venue": "Proceedings of the National Academy of Sciences",
+    "date": "2021-04-27",
+    "year": 2021,
+    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2025581118",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
     ],
     "modality": [],
     "system": [],
