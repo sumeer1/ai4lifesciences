@@ -2318,5 +2318,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.00381/full",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2019.00381/full",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
