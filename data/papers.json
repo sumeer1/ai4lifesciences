@@ -2210,5 +2210,31 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Large Language Models in Drug Discovery and Development: From Disease\n  Mechanisms to Clinical Trials",
+    "authors": [
+      "Yizhen Zheng",
+      "Huan Yee Koh",
+      "Maddie Yang",
+      "Li Li",
+      "Lauren T. May",
+      "Geoffrey I. Webb",
+      "Shirui Pan",
+      "George Church"
+    ],
+    "venue": "arXiv",
+    "date": "2024-09-06",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2409.04481",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
