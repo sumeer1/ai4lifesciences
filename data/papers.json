@@ -2337,5 +2337,32 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Protein structure generation via folding diffusion",
+    "authors": [
+      "Kevin E. Wu",
+      "Kevin K. Yang",
+      "Rianne van den Berg",
+      "Sarah Alamdari",
+      "James Y. Zou",
+      "Alex X. Lu",
+      "Ava P. Amini"
+    ],
+    "venue": "Nature Communications",
+    "date": "2024-02-05",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s41467-024-45051-2",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
