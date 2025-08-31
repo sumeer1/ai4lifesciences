@@ -2295,5 +2295,28 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Building a knowledge graph to enable precision medicine",
+    "authors": [
+      "Payal Chandak",
+      "Kexin Huang",
+      "Marinka Zitnik"
+    ],
+    "venue": "Scientific Data",
+    "date": "2023-02-02",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41597-023-01960-3",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
