@@ -185,26 +185,33 @@
   {
     "title": "A generalist vision–language foundation model for diverse biomedical tasks",
     "authors": [
-      "Kai Zhang et al."
+      "Kai Zhang",
+      "Rong Zhou",
+      "Eashan Adhikarla",
+      "Zhiling Yan",
+      "Yixin Liu",
+      "Jun Yu",
+      "Zhengliang Liu",
+      "Xun Chen",
+      "Brian D. Davison",
+      "Hui Ren",
+      "et al."
     ],
     "venue": "Nature Medicine",
+    "date": "2024-08-07",
     "year": 2024,
     "url": "https://www.nature.com/articles/s41591-024-03185-2",
     "code": "",
     "abstract": "",
     "type": [
-      "article"
+      "original"
     ],
     "domain": [
       "medicine"
     ],
-    "modality": [
-      "multimodal"
-    ],
+    "modality": [],
     "system": [],
-    "task": [
-      "multitask"
-    ]
+    "task": []
   },
   {
     "title": "An evaluation framework for clinical use of large language models in patient interaction tasks",
