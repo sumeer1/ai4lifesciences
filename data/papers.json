@@ -2044,5 +2044,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data",
+    "authors": [
+      "Martin Jinye Zhang",
+      "Kangcheng Hou",
+      "Kushal K. Dey",
+      "Saori Sakaue",
+      "Karthik A. Jagadeesh",
+      "Kathryn Weinand",
+      "Aris Taychameekiatchai",
+      "Poorvi Rao",
+      "Angela Oliveira Pisco",
+      "James Zou",
+      "et al."
+    ],
+    "venue": "Nature Genetics",
+    "date": "2022-09-01",
+    "year": 2022,
+    "url": "https://www.nature.com/articles/s41588-022-01167-z",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
