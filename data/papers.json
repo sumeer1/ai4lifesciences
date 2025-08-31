@@ -2501,5 +2501,27 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Machine learning for antimicrobial peptide identification and design",
+    "authors": [
+      "Fangping Wan",
+      "Felix Wong",
+      "James J. Collins",
+      "Cesar de la Fuente-Nunez"
+    ],
+    "venue": "Nature Reviews Bioengineering",
+    "date": "2024-02-26",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s44222-024-00152-x",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
