@@ -2387,5 +2387,33 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Characterizing the Clinical Adoption of Medical AI Devices through U.S. Insurance Claims",
+    "authors": [
+      "Kevin Wu",
+      "Eric Wu",
+      "Brandon Theodorou",
+      "Weixin Liang",
+      "Christina Mack",
+      "Lucas Glass",
+      "Jimeng Sun",
+      "James Zou"
+    ],
+    "venue": "NEJM AI",
+    "date": "2024-01-01",
+    "year": 2024,
+    "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2300030",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
