@@ -2181,5 +2181,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Structure-based drug design with equivariant diffusion models",
+    "authors": [
+      "Arne Schneuing",
+      "Charles Harris",
+      "Yuanqi Du",
+      "Kieran Didi",
+      "Arian Jamasb",
+      "Ilia Igashov",
+      "Weitao Du",
+      "Carla Gomes",
+      "Tom L. Blundell",
+      "Pietro Lio",
+      "et al."
+    ],
+    "venue": "Nature Computational Science",
+    "date": "2024-12-09",
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s43588-024-00737-x",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
