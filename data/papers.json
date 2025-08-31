@@ -2006,5 +2006,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://dl.acm.org/doi/full/10.1145/3485128",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://dl.acm.org/doi/full/10.1145/3485128",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "none"
+    ],
+    "domain": [
+      "climate"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
