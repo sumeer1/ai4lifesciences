@@ -2121,5 +2121,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Improved protein structure prediction using potentials from deep learning",
+    "authors": [
+      "Andrew W. Senior",
+      "Richard Evans",
+      "John Jumper",
+      "James Kirkpatrick",
+      "Laurent Sifre",
+      "Tim Green",
+      "Chongli Qin",
+      "Augustin Žídek",
+      "Alexander W. R. Nelson",
+      "Alex Bridgland",
+      "et al."
+    ],
+    "venue": "Nature",
+    "date": "2020-01-15",
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41586-019-1923-7",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
