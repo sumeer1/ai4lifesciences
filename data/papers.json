@@ -2523,5 +2523,26 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Leveraging artificial intelligence in the fight against infectious diseases",
+    "authors": [
+      "Felix Wong",
+      "Cesar de la Fuente-Nunez",
+      "James J. Collins"
+    ],
+    "venue": "Science",
+    "date": "2023-07-14",
+    "year": 2023,
+    "url": "https://www.science.org/doi/full/10.1126/science.adh1114",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
