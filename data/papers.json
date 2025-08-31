@@ -2415,5 +2415,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Discovery of a structural class of antibiotics with explainable deep learning",
+    "authors": [
+      "Felix Wong",
+      "Erica J. Zheng",
+      "Jacqueline A. Valeri",
+      "Nina M. Donghia",
+      "Melis N. Anahtar",
+      "Satotaka Omori",
+      "Alicia Li",
+      "Andres Cubillos-Ruiz",
+      "Aarti Krishnan",
+      "Wengong Jin",
+      "et al."
+    ],
+    "venue": "Nature",
+    "date": "2023-12-20",
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41586-023-06887-8",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
