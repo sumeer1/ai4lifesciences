@@ -2025,5 +2025,24 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "https://www.cell.com/cell/fulltext/S0092-8674(23)00094-6",
+    "authors": [],
+    "venue": "",
+    "date": null,
+    "year": null,
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(23)00094-6",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "review"
+    ],
+    "domain": [
+      "plant"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
