@@ -2472,5 +2472,34 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language\n  Models",
+    "authors": [
+      "Peng Xia",
+      "Kangyu Zhu",
+      "Haoran Li",
+      "Tianze Wang",
+      "Weijia Shi",
+      "Sheng Wang",
+      "Linjun Zhang",
+      "James Zou",
+      "Huaxiu Yao"
+    ],
+    "venue": "arXiv",
+    "date": "2024-10-16",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2410.13085",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "medicine"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
