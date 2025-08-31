@@ -1975,5 +1975,36 @@
     "modality": [],
     "system": [],
     "task": []
+  },
+  {
+    "title": "Accurate proteome-wide missense variant effect prediction with AlphaMissense",
+    "authors": [
+      "Jun Cheng",
+      "Guido Novati",
+      "Joshua Pan",
+      "Clare Bycroft",
+      "Akvilė Žemgulytė",
+      "Taylor Applebaum",
+      "Alexander Pritzel",
+      "Lai Hong Wong",
+      "Michal Zielinski",
+      "Tobias Sargeant",
+      "et al."
+    ],
+    "venue": "Science",
+    "date": "2023-09-22",
+    "year": 2023,
+    "url": "https://www.science.org/doi/full/10.1126/science.adg7492",
+    "code": "",
+    "abstract": "",
+    "type": [
+      "original"
+    ],
+    "domain": [
+      "genomics"
+    ],
+    "modality": [],
+    "system": [],
+    "task": []
   }
 ]
